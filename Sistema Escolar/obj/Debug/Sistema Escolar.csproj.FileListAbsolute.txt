@@ -1,0 +1,20 @@
+c:\users\sarahi\documents\visual studio 2010\Projects\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+c:\users\sarahi\documents\visual studio 2010\Projects\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+c:\users\sarahi\documents\visual studio 2010\Projects\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+c:\users\sarahi\documents\visual studio 2010\Projects\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+c:\users\sarahi\documents\visual studio 2010\Projects\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
+H:\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+H:\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+H:\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+H:\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+H:\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
+F:\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+F:\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+F:\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+F:\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+F:\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
+C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb

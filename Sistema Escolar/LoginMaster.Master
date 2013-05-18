@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginMaster.master.cs" Inherits="Sistema_Escolar.LoginMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="<%= Page.ResolveUrl("~")%>~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="page">
+        <div class="header">
+              <div class="logoIzquierdo">
+                        <img 
+                            src="Imagenes/fime.jpg" alt="fime" id="fime" 
+                            style="height: 94px; width: 77px"/>
+                    </div>
+                    <div class="logoDerecho">
+                        <img src="Imagenes/UANL (1).png" alt="Celeco" 
+                            style="height: 90px; width: 109px; margin-left: 0px"/>
+                    </div>
+    <div class="tituloPrincipal">
+                        <h2>
+                            Sistema Escolar
+                        </h2>
+                    </div>
+                    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="clear"></div>
+         </div>
+      <div class="footer"></div>
+    </form>
+</body>
+</html>
