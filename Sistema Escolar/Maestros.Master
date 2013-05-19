@@ -46,12 +46,11 @@
             <div class="contenedorMenu">
 		            <div id="smoothmenu1" class="ddsmoothmenu">
 		                <ul>
-                        <li><a href="">ALTAS</a>
+                        <li><a href="">Requistos de Inscripción</a>
                         <ul>
-                          <li><a href="<%= Page.ResolveUrl("~")%>alta_actualizar.aspx">AGREGAR</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>alta_agregar.aspx">AGREGAR</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>alta_borrar.aspx">BORRAR</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>alta_consulta.aspx">CONSULTA</a></li>
+		                  <li><a href="">Primaria</a></li>
+		                  <li><a href="">Secundaria</a></li>
+		                  <li><a href="">Prepa</a></li>
 		                  </ul>
                           </li>
 		                <li><a href="">Datos Generales</a>

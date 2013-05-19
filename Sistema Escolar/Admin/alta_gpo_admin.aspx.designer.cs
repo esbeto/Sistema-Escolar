@@ -76,13 +76,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label lblslon;
         
         /// <summary>
-        /// txtslon control.
+        /// DropDownList6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtslon;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
         
         /// <summary>
         /// lbldias control.
@@ -94,13 +94,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label lbldias;
         
         /// <summary>
-        /// txtdias control.
+        /// DropDownList5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtdias;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
         
         /// <summary>
         /// Lblhrs control.
@@ -112,13 +112,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblhrs;
         
         /// <summary>
-        /// Txthrs control.
+        /// DropDownList3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txthrs;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
         
         /// <summary>
         /// Lblcap control.
@@ -130,13 +130,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblcap;
         
         /// <summary>
-        /// Txtcap control.
+        /// DropDownList4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtcap;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
         
         /// <summary>
         /// Lblmod control.
@@ -148,13 +148,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblmod;
         
         /// <summary>
-        /// Txtmod control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtmod;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         /// <summary>
         /// Lblidioma control.
@@ -166,13 +166,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblidioma;
         
         /// <summary>
-        /// Txtidioma control.
+        /// DropDownList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtidioma;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
         
         /// <summary>
         /// imgbtnguardar0 control.

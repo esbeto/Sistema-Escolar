@@ -224,5 +224,22 @@
                     <asp:ImageButton ID="imgbtnguardar" runat="server" 
             ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
              Height="40px"  Width="45px"  />
+    <asp:Button ID="Btnelimi" runat="server" Text="ELIMINAR" />
             </div>
+            <table> <tr> <td class="style1"> Para eliminar o modificar datos de un Maestro existente, teclee la 
+                No. de trabajador . Gracias
+</td>
+</tr>
+            <td class="style1"> <asp:Label ID="LblBusca_por_maestro" runat="server" Text="Ingrese No. de Trabajador:" CssClass="etiquetas"></asp:Label> </td>
+            <td> <asp:TextBox ID="Txtb_p_m" runat="server" style="margin-left: 0px" 
+                    CssClass="textBox"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            </table> 
+            <br />
+ 
+    <asp:Button ID="BtnModi" runat="server" Text="MODIFICAR" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+     <br />
+
 </asp:Content>

@@ -10,25 +10,61 @@
 namespace Sistema_Escolar.Admin {
     
     
-    public partial class Alta_materia_admin {
+    public partial class Listado_gpos_admin {
         
         /// <summary>
-        /// Control lblidmate.
+        /// Control TextBox1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblidmate;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// Control txtodmate.
+        /// Control GV3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtodmate;
+        protected global::System.Web.UI.WebControls.GridView GV3;
+        
+        /// <summary>
+        /// Control lblmaestro.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmaestro;
+        
+        /// <summary>
+        /// Control lblmaestro0.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmaestro0;
+        
+        /// <summary>
+        /// Control lblgpo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblgpo;
+        
+        /// <summary>
+        /// Control lblgpo0.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblgpo0;
         
         /// <summary>
         /// Control lblmate.
@@ -40,57 +76,57 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label lblmate;
         
         /// <summary>
-        /// Control txtmate.
+        /// Control lblmate0.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmate;
+        protected global::System.Web.UI.WebControls.Label lblmate0;
         
         /// <summary>
-        /// Control lblniv.
+        /// Control lblhra.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblniv;
+        protected global::System.Web.UI.WebControls.Label lblhra;
         
         /// <summary>
-        /// Control txtniv.
+        /// Control lblhra0.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtniv;
+        protected global::System.Web.UI.WebControls.Label lblhra0;
         
         /// <summary>
-        /// Control lblesp.
+        /// Control Lblsalon.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblesp;
+        protected global::System.Web.UI.WebControls.Label Lblsalon;
         
         /// <summary>
-        /// Control txtesp.
+        /// Control Lblsalon0.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtesp;
+        protected global::System.Web.UI.WebControls.Label Lblsalon0;
         
         /// <summary>
-        /// Control imgbtnguardar0.
+        /// Control GV4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton imgbtnguardar0;
+        protected global::System.Web.UI.WebControls.GridView GV4;
     }
 }

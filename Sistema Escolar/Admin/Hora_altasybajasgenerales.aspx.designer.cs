@@ -10,87 +10,60 @@
 namespace Sistema_Escolar.Admin {
     
     
-    public partial class Alta_materia_admin {
+    public partial class Hora_altasybajasgenerales {
         
         /// <summary>
-        /// Control lblidmate.
+        /// Control Lblidhora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblidmate;
+        protected global::System.Web.UI.WebControls.Label Lblidhora;
         
         /// <summary>
-        /// Control txtodmate.
+        /// Control Txtidhora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtodmate;
+        protected global::System.Web.UI.WebControls.TextBox Txtidhora;
         
         /// <summary>
-        /// Control lblmate.
+        /// Control Lblhora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblmate;
+        protected global::System.Web.UI.WebControls.Label Lblhora;
         
         /// <summary>
-        /// Control txtmate.
+        /// Control Txthora.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmate;
+        protected global::System.Web.UI.WebControls.TextBox Txthora;
         
         /// <summary>
-        /// Control lblniv.
+        /// Control Btnactualizar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblniv;
+        protected global::System.Web.UI.WebControls.Button Btnactualizar;
         
         /// <summary>
-        /// Control txtniv.
+        /// Control BtnGuardar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtniv;
-        
-        /// <summary>
-        /// Control lblesp.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblesp;
-        
-        /// <summary>
-        /// Control txtesp.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtesp;
-        
-        /// <summary>
-        /// Control imgbtnguardar0.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton imgbtnguardar0;
+        protected global::System.Web.UI.WebControls.Button BtnGuardar;
     }
 }

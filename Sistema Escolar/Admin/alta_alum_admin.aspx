@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="alta_alum_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.alta_alum_admin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <style type="text/css">
+        .style1
+        {
+            width: 325px;
+        }
+    </style>
 </asp:Content>
 
 
@@ -8,7 +14,12 @@
     <p>
         <br />
     </p>
+         
     <div style=" margin-left: 10%;">
+     <br />
+     <td class="style1"> Ingrese datos del alumno. Gracias
+     </td>
+ <br />
     <table>
         <tr>
            <td class="style3">
@@ -51,7 +62,11 @@
        <tr>    
                    <td>&nbsp;</td>
           <td ><asp:Label ID="Lblsex" runat="server" Text="Sexo:" CssClass="etiquetas"></asp:Label></td>
-          <td ><asp:TextBox ID="Txtsex" runat="server" CssClass="textBox"></asp:TextBox></td>
+          <td ><asp:DropDownList ID="ddsexo" runat="server" 
+                  onselectedindexchanged="ddsexo_SelectedIndexChanged">
+                    <asp:ListItem>Femenino</asp:ListItem>
+                    <asp:ListItem>Masculino</asp:ListItem>
+                </asp:DropDownList></td>
       </tr>
 
        <tr>
@@ -87,7 +102,16 @@
             <td>&nbsp;</td>
             <td > <asp:Label ID="Llbcd" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Txtcd" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > 
+                <asp:DropDownList ID="ddsexo0" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList>
+            </td>
        </tr>
         <tr>
             <td>&nbsp;</td>
@@ -129,7 +153,14 @@
            <td class="style3">
              <asp:Label ID="Lblcol" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Txtcol1" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList> </td>
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Lblciu" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label> </td>
@@ -139,7 +170,14 @@
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Lbledo1" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Txtedo1" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList2" runat="server">
+                    <asp:ListItem>Nuevo Leon</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
          <tr>
             <td>&nbsp;</td>
@@ -187,7 +225,14 @@
            <td class="style3">
              <asp:Label ID="Lblcolpad" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Txtcolpad" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList3" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList> </td>
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Lblciupad" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label> </td>
@@ -197,7 +242,14 @@
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Lblestpad" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Txtestpad" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList4" runat="server">
+                    <asp:ListItem>Nuevo Leon</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
          <tr>
             <td>&nbsp;</td>
@@ -258,7 +310,14 @@
            <td class="style3">
              <asp:Label ID="Labelcoltut" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Textcoltut" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList6" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList> </td>
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelciutut" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label> </td>
@@ -268,7 +327,15 @@
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelesttut" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Textesttut" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList5" runat="server" 
+                    onselectedindexchanged="DropDownList5_SelectedIndexChanged">
+                    <asp:ListItem>Nuevo Leon</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
          <tr>
             <td>&nbsp;</td>
@@ -309,12 +376,18 @@
            <td class="style3">
              <asp:Label ID="Labeldis" runat="server" Text="Discapacidad:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Textdis" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DDdiscapacidad" runat="server">
+                </asp:DropDownList> </td>
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelt_san" runat="server" Text="Tipo de Sangre:" CssClass="etiquetas"></asp:Label> </td>
            
-            <td > <asp:TextBox ID="Textt_san" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="ddtipsan" runat="server">
+                    <asp:ListItem>AB</asp:ListItem>
+                    <asp:ListItem>A</asp:ListItem>
+                    <asp:ListItem>B</asp:ListItem>
+                    <asp:ListItem>O</asp:ListItem>
+                </asp:DropDownList> </td>
        </tr>
         <tr>
             <td>&nbsp;</td>
@@ -335,8 +408,8 @@
            <tr>
             <td > &nbsp;</td>
             <td> <asp:Label ID="Labeltrab_alu" runat="server" Text="Trabaja:" CssClass="etiquetas"></asp:Label> </td>
-            <td> <asp:TextBox ID="Texttrab_alu" runat="server" style="margin-left: 0px" 
-                    CssClass="textBox"></asp:TextBox>
+            <td> 
+                <asp:RadioButton ID="Radbt1" runat="server" />
             </td>
              </tr>
         </tr>
@@ -354,17 +427,40 @@
         <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelcol_emp" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Textcol_emp" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList7" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
          <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelest_emp" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Textest_emp" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList8" runat="server" 
+                    onselectedindexchanged="DropDownList5_SelectedIndexChanged">
+                    <asp:ListItem>Nuevo Leon</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
           <tr>
             <td>&nbsp;</td>
             <td > <asp:Label ID="Labelpais_emp" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label> </td>
-            <td > <asp:TextBox ID="Textpais_emp" runat="server" CssClass="textBox"></asp:TextBox> </td>
+            <td > <asp:DropDownList ID="DropDownList9" runat="server" 
+                    onselectedindexchanged="DropDownList5_SelectedIndexChanged">
+                    <asp:ListItem>Mexico</asp:ListItem>
+                    <asp:ListItem>2</asp:ListItem>
+                    <asp:ListItem>3</asp:ListItem>
+                    <asp:ListItem>4</asp:ListItem>
+                    <asp:ListItem>5</asp:ListItem>
+                    <asp:ListItem>6</asp:ListItem>
+                </asp:DropDownList> </td>
         </tr>
          <tr>
             <td>&nbsp;</td>
@@ -389,7 +485,22 @@
         <asp:ImageButton ID="imgbtnguardar0" runat="server" 
             ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
              Height="34px"  Width="35px"  />
+    <asp:Button ID="Btnelimi" runat="server" Text="ELIMINAR" />
              </div>
     <br />
-    <br />
+    <table> <tr> <td class="style1"> Para eliminar o modificar datos de un alumno existente, teclee la matricula y seleccione el boton adecuado. Gracias
+</td>
+</tr>
+            <td class="style1"> <asp:Label ID="LblBusca_por_alumno" runat="server" Text="Ingrese Matricula:" CssClass="etiquetas"></asp:Label> </td>
+            <td> <asp:TextBox ID="Txtb_p_a" runat="server" style="margin-left: 0px" 
+                    CssClass="textBox"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            </table> 
+            <br />
+ 
+    <asp:Button ID="BtnModi" runat="server" Text="MODIFICAR" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+     <br />
+  <br />
     </asp:Content>

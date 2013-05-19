@@ -7,19 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Sistema_Escolar.Admin
 {
-    public partial class alta_alum_admin : System.Web.UI.Page
+    public partial class Asignacion_calses_amaestro_admin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ddsexo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void DropDownList5_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

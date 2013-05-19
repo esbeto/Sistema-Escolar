@@ -50,34 +50,36 @@
                         <li><a href="">Alumnos</a>
                         <ul>
 		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/alta_alum_admin.aspx">Alta de Alumno</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/listar_alumnos_admin.aspx">Lista de Alumnos</a></li>
-                          <li><a href="<%= Page.ResolveUrl("~")%>Admin/perfil_alum_admin.aspx">Perfil del Alumno</a></li>
+		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/Horario_admin.aspx">Horario de Alumnos</a></li>
 		                  </ul>
                           </li>
 		                <li><a href="">Maestros</a>
 		                  <ul>
 		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/alta_maestros_admin.aspx">Alta de Maestro</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/listar_maestros_admin.aspx">Lista de Maestros</a></li>
-		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/perfil_maestro_admin.aspx">Perfil del Maestro</a></li>
+		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/listado_alumnospormaestroadmin.aspx">Lista de alumnos por maestro</a></li>
+                          <li><a href="<%= Page.ResolveUrl("~")%>Admin/calificaciones_admin.aspx">Calificaciones</a></li>
+		                  <li><a href="<%= Page.ResolveUrl("~")%>Admin/Asigacion_calses_amaestro_admin.aspx">Horario Maestro</a></li>
 		                  </ul>
 		                </li>
-		                <li><a href="#">Materias</a>
+		                <li><a href="">ALTAS Y BAJAS GENERALES</a>
                         <ul>
-                        <li><a href="">Alta materia</a></li>
-                        <li><a href="">Modificar materia</a></li>
-		                <li><a href="">Alta Grupo</a></li>
-                        <li><a href="">Modificar Grupo</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/Materia_altasbajagenerales.aspx">Materia</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/Hora_altasybajasgenerales.aspx">Hora</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/dia_altasybajasgenerales.aspx">Dia</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/modalidad_altasybajasgenerales.aspx">Modalidad</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/Salones_altasybajasgenerales.aspx">Salones</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/especialidad_altasybajasgenerales.aspx">Especialidad</a></li>
+		                <li><a href="<%= Page.ResolveUrl("~")%>Admin/grupo_altasybajagenerales.aspx">Grupo</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/idioma_altasybajasgenerales.aspx">Idioma</a></li>
+                        <li><a href="<%= Page.ResolveUrl("~")%>Admin/niveles_altasybajasgenerales.aspx">Niveles</a></li>
                         </ul>
                         </li>
-                        <li><a href="#">Cuotas</a>
+                        <li><a href="">Usuarios</a>
                         <ul>
-                        <li><a href="">1</a></li>
-		                  <li><a href="">2</a></li>
-		                  <li><a href="">3</a></li>
-                          <li><a href="">4</a></li>
+                        <li><a href="">Altas Usuarios</a></li>
                         </ul>
                         </li>
-                        <li><a href="#">Reportes</a>
+                        <li><a href="">Catalogos de pagos</a>
                         <ul>
                         <li><a href="">1</a></li>
 		                  <li><a href="">2</a></li>
@@ -85,14 +87,7 @@
                           <li><a href="">4</a></li>
                         </ul>
                         </li>    
-                        <li><a href="#">Configuracion</a>
-                        <ul>
-                        <li><a href="">1</a></li>
-		                  <li><a href="">2</a></li>
-		                  <li><a href="">3</a></li>
-                          <li><a href="">4</a></li>
                         </ul>
-                        </li>
                     </div>
            
                  </div>
