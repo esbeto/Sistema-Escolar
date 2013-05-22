@@ -23,3 +23,8 @@ I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
 I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
 I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
 I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
+C:\Users\Beto\Documents\GitHub\Sistema-Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+C:\Users\Beto\Documents\GitHub\Sistema-Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+C:\Users\Beto\Documents\GitHub\Sistema-Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Beto\Documents\GitHub\Sistema-Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+C:\Users\Beto\Documents\GitHub\Sistema-Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
