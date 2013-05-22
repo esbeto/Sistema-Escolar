@@ -1,5 +1,6 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #F4F4F4;
+    font-family: 'Open Sans';
 }
 
 .page {
@@ -16,6 +17,7 @@ body {
 .contenedorMenu {
     clear: both;
     display: block;
+    float: none;
 }
 
 .main {
@@ -26,33 +28,51 @@ body {
 
 /* Menú */
 .ddsmoothmenu ul {
+    background-color: #EFF5F1;
+    border-bottom: 1px solid #2F7E57;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .ddsmoothmenu ul li {
-    display: block;
-    float: left;
+    display: inline;
     position: relative;
 }
 
 .ddsmoothmenu ul li a {
-    background-color: #FFF;
-    border-bottom: 1px solid #EEE;
-    border-top: 1px solid #F5F5F5;
-    display: block;
+    color: #457157;
+    display: inline;
+    font-size: 14px;
     padding: 5px 10px;
     text-decoration: none;
 }
 
+.ddsmoothmenu ul li a:hover {
+    color: #457157;
+}
+
 .ddsmoothmenu ul li ul {
+    background-color: #FFF;
+    margin-top: 10px;
+    padding: 0;
     position: absolute;
 }
 
 .ddsmoothmenu ul li ul li {
+    border-top: 1px solid #DBE9E2;
+    display: block;
     float: none;
+    text-align: left;
     width: 150px;
+}
+.ddsmoothmenu ul li ul li:hover {
+    background-color: #F2F6F4;
+}
+
+.ddsmoothmenu ul li ul li a {
+    display: block;
 }
 
 th {

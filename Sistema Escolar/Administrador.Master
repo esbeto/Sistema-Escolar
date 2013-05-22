@@ -28,9 +28,9 @@
     <div class="page">
         <div class="tituloPrincipal">
             <div class="logoIzquierdo">
-                <img src="Imagenes/fime.jpg" alt="fime" id="fime" style="height: 94px; width: 77px" /></div>
+                <img src="../Imagenes/fime.jpg" alt="fime" id="fime" style="height: 94px; width: 77px" /></div>
             <div class="logoDerecho">
-                <img src="Imagenes/UANL (1).png" alt="Celeco" style="height: 90px; width: 109px;
+                <img src="../Imagenes/UANL (1).png" alt="Celeco" style="height: 90px; width: 109px;
                     margin-left: 0px" />
             </div>
             <div>
