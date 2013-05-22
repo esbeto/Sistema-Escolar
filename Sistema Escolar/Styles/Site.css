@@ -39,6 +39,7 @@ body {
 .ddsmoothmenu ul li {
     display: inline;
     position: relative;
+    padding: 13px 0;
 }
 
 .ddsmoothmenu ul li a {
@@ -55,17 +56,23 @@ body {
 
 .ddsmoothmenu ul li ul {
     background-color: #FFF;
-    margin-top: 10px;
     padding: 0;
     position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.ddsmoothmenu ul li ul:hover {
+    display: block;
 }
 
 .ddsmoothmenu ul li ul li {
     border-top: 1px solid #DBE9E2;
     display: block;
     float: none;
+    padding: 0;
     text-align: left;
-    width: 150px;
+    width: 200px;
 }
 .ddsmoothmenu ul li ul li:hover {
     background-color: #F2F6F4;
