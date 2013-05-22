@@ -1,8 +1,8 @@
+# Archivos de Mac
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
-
 
 # Thumbnails
 ._*
@@ -16,3 +16,9 @@ Icon
 
 # Esta carpeta está protegida por Visual no se qué sea
 App_Data
+
+#User Specific Files
+*.user
+*.suo
+*.dll
+*.pdb
