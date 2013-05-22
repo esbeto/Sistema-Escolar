@@ -47,7 +47,7 @@
                     <li><a href="">Datos Generales</a>
                         <ul>
                             <li><a href="../Alumnos/Datosalum.aspx">Datos del Alumno</a></li>
-                            <li><a href="../Alumnos/DomicilioAlum.aspx">Domincilio></li>
+                            <li><a href="../Alumnos/DomicilioAlum.aspx">Domincilio</a></li>
                             <li><a href="../Alumnos/Datospadreotut.aspx">Padre o tutor</a></li>
                             <li><a href="../Alumnos/trabajoalum.aspx">Trabajo</a></li>
                         </ul>
