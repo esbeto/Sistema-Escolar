@@ -61,7 +61,7 @@
                                 Maestro</a></li>
                         </ul>
                     </li>
-                    <li><a href="">ALTAS Y BAJAS GENERALES</a>
+                    <li><a href="">Altas y Bajas Generales</a>
                         <ul>
                             <li><a href="<%= Page.ResolveUrl("~")%>Admin/Materia_altasbajagenerales.aspx">Materia</a></li>
                             <li><a href="<%= Page.ResolveUrl("~")%>Admin/Hora_altasybajasgenerales.aspx">Hora</a></li>
