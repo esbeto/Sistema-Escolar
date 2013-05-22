@@ -36,13 +36,13 @@
                 <ul>
                     <li><a href="">Datos Generales</a>
                         <ul>
-                            <li><a href="../Alumnos/Datosalum.aspx">Datos del Alumno</a></li>
-                            <li><a href="../Alumnos/DomicilioAlum.aspx">Domincilio</a></li>
-                            <li><a href="../Alumnos/Datospadreotut.aspx">Padre o tutor</a></li>
-                            <li><a href="../Alumnos/trabajoalum.aspx">Trabajo</a></li>
+                            <li><a href="../Alumno/Datosalum.aspx">Datos del Alumno</a></li>
+                            <li><a href="../Alumno/DomicilioAlum.aspx">Domincilio</a></li>
+                            <li><a href="../Alumno/Datospadreotut.aspx">Padre o tutor</a></li>
+                            <li><a href="../Alumno/trabajoalum.aspx">Trabajo</a></li>
                         </ul>
                     </li>
-                    <li><a href="../Alumnos/Horarioalu.aspx">Horario</a> </li>
+                    <li><a href="../Alumno/Horarioalu.aspx">Horario</a> </li>
                     <li><a href="">Calificaciones</a></li>
                     <li><a href="">Adeudos</a></li>
                 </ul>
