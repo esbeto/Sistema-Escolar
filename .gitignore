@@ -10,3 +10,9 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Windows thumbs
+[Tt]humbs.db
+
+# Esta carpeta está protegida por Visual no se qué sea
+App_Data
