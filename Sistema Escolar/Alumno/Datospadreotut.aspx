@@ -1,4 +1,6 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="Datospadreotut.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datospadreotut" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true"
+    CodeBehind="Datospadreotut.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datospadreotut" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
         .style1
@@ -63,17 +65,16 @@
             <td>
                 <asp:TextBox ID="txttel" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
-                 <td>
+            <td>
                 <asp:Label ID="lblcel" runat="server" CssClass="etiquetas" Text="Celular:"></asp:Label>
             </td>
             <td class="style2">
-               <asp:TextBox ID="txtcel" runat="server" CssClass="textBox"></asp:TextBox>
-</td>
+                <asp:TextBox ID="txtcel" runat="server" CssClass="textBox"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblmail" runat="server" CssClass="etiquetas" 
-                    Text="Correo Electronico:"></asp:Label>
+                <asp:Label ID="lblmail" runat="server" CssClass="etiquetas" Text="Correo Electronico:"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtmail" runat="server" CssClass="textBox"></asp:TextBox>
@@ -81,10 +82,9 @@
         </tr>
     </table>
     <br />
-    <div style=" margin-left: 70%;">
-        <asp:ImageButton ID="imgbtnguardar" runat="server" 
-            ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
-             Height="34px"  Width="35px" Visible="False"  />
-            </div>
-            <br />
+    <div style="margin-left: 70%;">
+        <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px" Visible="False" />
+    </div>
+    <br />
 </asp:Content>

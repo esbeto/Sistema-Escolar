@@ -1,4 +1,6 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="DomicilioAlum.aspx.cs" Inherits="Sistema_Escolar.Alumno.DomicilioAlum" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true"
+    CodeBehind="DomicilioAlum.aspx.cs" Inherits="Sistema_Escolar.Alumno.DomicilioAlum" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
         .style1
@@ -53,17 +55,20 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
     <table class="style1">
         <tr>
             <td class="style3">
-                DOMICILIO LOCAL</td>
+                DOMICILIO LOCAL
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style2">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style3">
@@ -73,9 +78,11 @@
                 <asp:TextBox ID="TextBox1" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style2">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style3">
@@ -99,25 +106,24 @@
                 <asp:TextBox ID="txtciudad" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style2">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
-        
     </table>
-    <div style=" margin-left: 80%;">
-        <asp:ImageButton ID="imgbtnguardar" runat="server" 
-            ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
-             Height="34px"  Width="35px" Visible="False"  />
-            </div>
+    <div style="margin-left: 80%;">
+        <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px" Visible="False" />
+    </div>
     <br />
     <br />
-
-
     <table class="style4">
         <tr>
             <td class="style7">
-                DOMICILIO FORANEO</td>
+                DOMICILIO FORANEO
+            </td>
             <td class="style8">
             </td>
             <td class="style9">
@@ -133,9 +139,11 @@
                 <asp:TextBox ID="TextBox4" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style11">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style6">
@@ -160,9 +168,11 @@
                 </asp:DropDownList>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style11">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style6">
@@ -173,9 +183,11 @@
                 </asp:DropDownList>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style11">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style6">
@@ -186,11 +198,11 @@
                 </asp:DropDownList>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td class="style11">
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
     </table>
-
-
 </asp:Content>

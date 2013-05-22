@@ -1,11 +1,14 @@
-<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="Datosalum.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datosalum" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true"
+    CodeBehind="Datosalum.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datosalum" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <table style=" margin-left: 25%; height: 497px; width: 572px;" >
+    <table style="margin-left: 25%; height: 497px; width: 572px;">
         <tr>
             <td class="style1">
-                DATOS GENERALES</td>
+                DATOS GENERALES
+            </td>
         </tr>
         <tr>
             <td class="style1">
@@ -44,8 +47,7 @@
         </tr>
         <tr>
             <td class="style1">
-                <asp:Label ID="lblestciv" runat="server" Text="Estado Civil:" 
-                    CssClass="etiquetas"></asp:Label>
+                <asp:Label ID="lblestciv" runat="server" Text="Estado Civil:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
                 <asp:DropDownList ID="ddestadociv" runat="server">
@@ -82,28 +84,31 @@
             <td>
                 <asp:Label ID="lblnacionalidad" runat="server"></asp:Label>
             </td>
-           
         </tr>
         <tr>
             <td class="style1">
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
-                CONTACTO</td>
+                CONTACTO
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
-        <td class="style1">
+            <td class="style1">
                 <asp:Label ID="lblmail" runat="server" CssClass="etiquetas" Text="Correo:"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtmail" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
-                </tr>
+        </tr>
         <tr>
             <td class="style1">
                 <asp:Label ID="lbltel" runat="server" CssClass="etiquetas" Text="Telefono:"></asp:Label>
@@ -122,8 +127,7 @@
         </tr>
         <tr>
             <td class="style1">
-                <asp:Label ID="lblnomp" runat="server" CssClass="etiquetas" 
-                    Text="Nombre del padre:"></asp:Label>
+                <asp:Label ID="lblnomp" runat="server" CssClass="etiquetas" Text="Nombre del padre:"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtnomp" runat="server" CssClass="textBox"></asp:TextBox>
@@ -131,8 +135,7 @@
         </tr>
         <tr>
             <td class="style1">
-                <asp:Label ID="lblnomm" runat="server" CssClass="etiquetas" 
-                    Text="Nombre de la Madre:"></asp:Label>
+                <asp:Label ID="lblnomm" runat="server" CssClass="etiquetas" Text="Nombre de la Madre:"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtnomm" runat="server" CssClass="textBox"></asp:TextBox>
@@ -140,15 +143,19 @@
         </tr>
         <tr>
             <td class="style1">
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
-                DATOS ADICIONALES</td>
+                DATOS ADICIONALES
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
@@ -164,19 +171,24 @@
                 <asp:Label ID="Label2" runat="server" CssClass="etiquetas" Text="Trabajo:"></asp:Label>
             </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
-                &nbsp;</td>
+                &nbsp;
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
-                NACIMIENTO</td>
+                NACIMIENTO
+            </td>
             <td>
-                &nbsp;</td>
+                &nbsp;
+            </td>
         </tr>
         <tr>
             <td class="style1">
@@ -210,13 +222,10 @@
                 <asp:Label ID="lblCiudad" runat="server"></asp:Label>
             </td>
         </tr>
-       
     </table>
     <br />
-
-    <div style=" margin-left: 80%;">
-                    <asp:ImageButton ID="imgbtnguardar" runat="server" 
-            ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
-             Height="40px"  Width="45px" Visible="False" onclick="imgbtnguardar_Click"  />
-            </div>
+    <div style="margin-left: 80%;">
+        <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="40px" Width="45px" Visible="False" OnClick="imgbtnguardar_Click" />
+    </div>
 </asp:Content>
