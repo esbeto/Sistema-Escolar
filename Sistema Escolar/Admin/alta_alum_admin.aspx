@@ -56,7 +56,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblfec_nac" runat="server" Text="Fecha de Nacimiento:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -65,7 +64,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblsex" runat="server" Text="Sexo:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -77,7 +75,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblnac" runat="server" Text="Nacionalidad:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -86,7 +83,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblcurp" runat="server" Text="CURP:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -98,9 +94,7 @@
                 <th colspan="2">
                     <asp:Label ID="LblCon" runat="server" Text="CONTACTO"></asp:Label>
                 </th>
-
                 <tr>
-
                     <td>
                         <asp:Label ID="LblDir" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                     </td>
@@ -116,7 +110,6 @@
                 <asp:TextBox ID="Txtcol" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <tr>
-
                 <td>
                     <asp:Label ID="Llbcd" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -132,7 +125,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbledo" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -141,7 +133,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblcp" runat="server" Text="Codigo Postal:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -150,7 +141,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Llbtel1" runat="server" Text="Telefono 1:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -159,7 +149,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbltel2" runat="server" Text="Telefono 2:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -168,7 +157,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblcorr" runat="server" Text="Correo Electronico:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -190,28 +178,27 @@
                 </tr>
             </tr>
             <td class="style3">
-              <asp:Label ID="Lblcol" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label>
+                <asp:Label ID="Lblcol" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
-              <asp:DropDownList ID="DropDownList1" runat="server">
-                  <asp:ListItem>Monterrey</asp:ListItem>
-                  <asp:ListItem>San Nicolas</asp:ListItem>
-                  <asp:ListItem>Guadalupe</asp:ListItem>
-                  <asp:ListItem>Escobedo</asp:ListItem>
-                  <asp:ListItem>San Pedro</asp:ListItem>
-                  <asp:ListItem>Santa Catarina</asp:ListItem>
-              </asp:DropDownList>
+                <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>Monterrey</asp:ListItem>
+                    <asp:ListItem>San Nicolas</asp:ListItem>
+                    <asp:ListItem>Guadalupe</asp:ListItem>
+                    <asp:ListItem>Escobedo</asp:ListItem>
+                    <asp:ListItem>San Pedro</asp:ListItem>
+                    <asp:ListItem>Santa Catarina</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <tr>
                 <td>
                     <asp:Label ID="Lblciu" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                  <asp:TextBox ID="Txtciu" runat="server" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="Txtciu" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbledo1" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -227,7 +214,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblcp1" runat="server" Text="Codigo Postal:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -236,7 +222,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbltel" runat="server" Text="Telefono :" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -248,7 +233,6 @@
                 <asp:Label ID="Lbldtut" runat="server" Text="DATOS PADRES O TUTOR"></asp:Label>
             </th>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblnamtut" runat="server" Text="Nombre:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -269,7 +253,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblpar" runat="server" Text="Parentesco:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -282,7 +265,6 @@
                     <asp:Label ID="Lblconpad" runat="server" Text="CONTACTO"></asp:Label>
                 </th>
                 <tr>
-
                     <td>
                         <asp:Label ID="Lbldirpad" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                     </td>
@@ -305,7 +287,6 @@
                 </asp:DropDownList>
             </td>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblciupad" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -314,7 +295,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblestpad" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -330,7 +310,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblcppad" runat="server" Text="Codigo Postal:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -339,7 +318,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbltelpad1" runat="server" Text="Telefono 1:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -348,7 +326,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lbltelpad2" runat="server" Text="Telefono 2:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -357,7 +334,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Lblempad" runat="server" Text="Correo Electronico:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -370,7 +346,6 @@
                 <asp:Label ID="Label1" runat="server" Text="TUTOR"></asp:Label>
             </th>
             <tr>
-
                 <td>
                     <asp:Label ID="Labeltut" runat="server" Text="Nombre:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -391,7 +366,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelpartut" runat="server" Text="Parentesco:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -404,7 +378,6 @@
                     <asp:Label ID="Labelconttut" runat="server" Text="CONTACTO"></asp:Label>
                 </th>
                 <tr>
-
                     <td>
                         <asp:Label ID="Labeldirtut" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                     </td>
@@ -427,7 +400,6 @@
                 </asp:DropDownList>
             </td>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelciutut" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -436,7 +408,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelesttut" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -452,7 +423,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelcptut" runat="server" Text="Codigo Postal:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -461,7 +431,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelteltut1" runat="server" Text="Telefono 1:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -470,7 +439,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelteltut2" runat="server" Text="Telefono 2:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -479,7 +447,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelemtut" runat="server" Text="Correo Electronico:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -508,7 +475,6 @@
                 </asp:DropDownList>
             </td>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelt_san" runat="server" Text="Tipo de Sangre:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -522,7 +488,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelaleg" runat="server" Text="Alergias:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -531,7 +496,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labeln_seg" runat="server" Text="No. Seguro:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -560,7 +524,6 @@
                 <asp:TextBox ID="Textnom_emp" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <tr>
-
                 <td>
                     <asp:Label ID="Labeldir_emp" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -569,7 +532,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelcol_emp" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -585,7 +547,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelest_emp" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -601,7 +562,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelpais_emp" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -617,7 +577,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
                     <asp:Label ID="Labelcp_emp" runat="server" Text="Codigo Postal:" CssClass="etiquetas"></asp:Label>
                 </td>
@@ -625,7 +584,6 @@
                     <asp:TextBox ID="Textcp_emp" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
                 <tr>
-
                     <td>
                         <asp:Label ID="Labeltel_emp" runat="server" Text="Telefono:" CssClass="etiquetas"></asp:Label>
                     </td>
