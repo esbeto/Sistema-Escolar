@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Maestros.Master" AutoEventWireup="true" CodeBehind="alta_mae_consu.aspx.cs" Inherits="Sistema_Escolar.Maestro.alta_mae_consu" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Maestros.Master" AutoEventWireup="true" CodeBehind="alta_mae_consu.aspx.cs" Inherits="Sistema_Escolar.Maestro.alta_mae_consu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
   

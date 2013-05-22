@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="DomicilioAlum.aspx.cs" Inherits="Sistema_Escolar.Alumno.DomicilioAlum" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="DomicilioAlum.aspx.cs" Inherits="Sistema_Escolar.Alumno.DomicilioAlum" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
         .style1

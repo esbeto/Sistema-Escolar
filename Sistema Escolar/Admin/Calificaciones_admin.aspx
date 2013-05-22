@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="Calificaciones_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.Listado_gpos_admin" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="Calificaciones_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.Listado_gpos_admin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

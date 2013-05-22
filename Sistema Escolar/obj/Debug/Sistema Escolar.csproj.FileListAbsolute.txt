@@ -18,3 +18,8 @@ C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pd
 C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
 C:\Users\Mairelly\Desktop\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb
+I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.dll
+I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\bin\Sistema Escolar.pdb
+I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\ResolveAssemblyReference.cache
+I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.dll
+I:\PROYECTO IAS\19-mayo\Sistema Escolar\Sistema Escolar\obj\Debug\Sistema Escolar.pdb

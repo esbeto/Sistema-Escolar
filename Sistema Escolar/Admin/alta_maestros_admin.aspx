@@ -1,7 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="alta_maestros_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.alta_maestros_admin" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="alta_maestros_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.alta_maestros_admin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+   <div style=" margin-left: 10%;">
+     <br />
+     <td class="style1"> Ingrese datos del Maestro. Gracias
+     </td>
+ <br />
 <table style=" margin-left: 25%; height: 497px; width: 572px;" >
         <tr>
             <td class="style1">

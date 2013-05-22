@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="alta_alum_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.alta_alum_admin" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Administrador.Master" AutoEventWireup="true" CodeBehind="alta_alum_admin.aspx.cs" Inherits="Sistema_Escolar.Admin.alta_alum_admin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
         .style1
@@ -17,7 +17,7 @@
          
     <div style=" margin-left: 10%;">
      <br />
-     <td class="style1"> Ingrese datos del alumno. Gracias
+     <td class="style1"> Ingrese datos del Alumno. Gracias
      </td>
  <br />
     <table>

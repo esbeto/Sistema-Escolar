@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -86,6 +86,15 @@
     <Content Include="Imagenes\IMPRIMIR.png" />
     <Content Include="Imagenes\right.gif" />
     <Content Include="Imagenes\UANL %281%29.png" />
+    <Content Include="Maestro\alta_consulta.aspx" />
+    <Content Include="Maestro\alta_maes_calif.aspx" />
+    <Content Include="Maestro\alta_maes_gpo.aspx" />
+    <Content Include="Maestro\alta_maes_periodo.aspx" />
+    <Content Include="Maestro\alta_maes_periodo2.aspx" />
+    <Content Include="Maestro\alta_mae_consu.aspx" />
+    <Content Include="Maestro\alta_mae_lista.aspx" />
+    <Content Include="Maestro\alta_mae_reportes.aspx" />
+    <Content Include="Maestro\alum_gpo_maes.aspx" />
     <Content Include="Scripts\ddsmoothmenu.js" />
     <Content Include="Scripts\jquery-1.3.2.min.js" />
     <Content Include="Styles\ddsmoothmenu.css" />
@@ -331,6 +340,69 @@
     <Compile Include="Maestros.Master.designer.cs">
       <DependentUpon>Maestros.Master</DependentUpon>
     </Compile>
+    <Compile Include="Maestro\alta_consulta.aspx.cs">
+      <DependentUpon>alta_consulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_consulta.aspx.designer.cs">
+      <DependentUpon>alta_consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_calif.aspx.cs">
+      <DependentUpon>alta_maes_calif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_calif.aspx.designer.cs">
+      <DependentUpon>alta_maes_calif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_gpo.aspx.cs">
+      <DependentUpon>alta_maes_gpo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_gpo.aspx.designer.cs">
+      <DependentUpon>alta_maes_gpo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_periodo.aspx.cs">
+      <DependentUpon>alta_maes_periodo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_periodo.aspx.designer.cs">
+      <DependentUpon>alta_maes_periodo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_periodo2.aspx.cs">
+      <DependentUpon>alta_maes_periodo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_maes_periodo2.aspx.designer.cs">
+      <DependentUpon>alta_maes_periodo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_consu.aspx.cs">
+      <DependentUpon>alta_mae_consu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_consu.aspx.designer.cs">
+      <DependentUpon>alta_mae_consu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_lista.aspx.cs">
+      <DependentUpon>alta_mae_lista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_lista.aspx.designer.cs">
+      <DependentUpon>alta_mae_lista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_reportes.aspx.cs">
+      <DependentUpon>alta_mae_reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alta_mae_reportes.aspx.designer.cs">
+      <DependentUpon>alta_mae_reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro\alum_gpo_maes.aspx.cs">
+      <DependentUpon>alum_gpo_maes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maestro\alum_gpo_maes.aspx.designer.cs">
+      <DependentUpon>alum_gpo_maes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -349,7 +421,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Maestro\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="Datosalum.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datosalum" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/AlumnosM.Master" AutoEventWireup="true" CodeBehind="Datosalum.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datosalum" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -217,6 +217,6 @@
     <div style=" margin-left: 80%;">
                     <asp:ImageButton ID="imgbtnguardar" runat="server" 
             ImageUrl="~/Imagenes/save.png" CommandName="guardar" 
-             Height="40px"  Width="45px" Visible="False"  />
+             Height="40px"  Width="45px" Visible="False" onclick="imgbtnguardar_Click"  />
             </div>
 </asp:Content>
