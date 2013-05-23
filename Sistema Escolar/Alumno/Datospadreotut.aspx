@@ -2,22 +2,10 @@
     CodeBehind="Datospadreotut.aspx.cs" Inherits="Sistema_Escolar.Alumno.Datospadreotut" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <style type="text/css">
-        .style1
-        {
-            width: 29%;
-            height: 207px;
-        }
-        .style2
-        {
-            width: 5px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p class="tituloPrincipal">
-        Datos del Padre/Tutor</p>
-    <table class="style1">
+    <p>Datos del Padre/Tutor</p>
+    <table>
         <tr>
             <td>
                 <asp:Label ID="lblcall" runat="server" CssClass="etiquetas" Text="Calle:"></asp:Label>
@@ -68,7 +56,7 @@
             <td>
                 <asp:Label ID="lblcel" runat="server" CssClass="etiquetas" Text="Celular:"></asp:Label>
             </td>
-            <td class="style2">
+            <td>
                 <asp:TextBox ID="txtcel" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
@@ -82,7 +70,7 @@
         </tr>
     </table>
     <br />
-    <div style="margin-left: 70%;">
+    <div>
         <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
             CommandName="guardar" Height="34px" Width="35px" Visible="False" />
     </div>
