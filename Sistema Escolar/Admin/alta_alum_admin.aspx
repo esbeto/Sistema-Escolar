@@ -505,7 +505,7 @@
             </tr>
             </tr>
             <tr>
-                <th class="style3">
+                <th colspan="2">
                     <asp:Label ID="Labeltra_alu" runat="server" Text="TRABAJO DEL ALUMNO"></asp:Label>
                 </th>
                 <tr>
