@@ -3,6 +3,12 @@ body {
     font-family: 'Open Sans';
 }
 
+th {
+    font-size: 1em;
+    border-bottom: 1px solid #CCC;
+    padding-top: 20px;
+}
+
 .page {
     box-shadow: 0 0 6px 0px #CCC;
     background-color: #FFF;
@@ -10,8 +16,18 @@ body {
     width: 960px;
 }
 
+.logoIzquierdo {
+    float: left;
+}
+.logoDerecho {
+    float: right;
+}
 .tituloPrincipal {
     padding: 5px 15px;
+}
+.tituloPrincipal h1 {
+    text-align: center;
+    margin: 30px 0;
 }
 
 .contenedorMenu {
@@ -81,24 +97,6 @@ body {
 .ddsmoothmenu ul li ul li a {
     display: block;
 }
-
-th {
-    font-size: 1em;
-    border-bottom: 1px solid #CCC;
-    padding-top: 20px;
-}
-
-.logoIzquierdo {
-    float: left;
-}
-.logoDerecho {
-    float: right;
-}
-.tituloPrincipal h1 {
-    text-align: center;
-    margin: 20px 0;
-}
-
 
 
 
