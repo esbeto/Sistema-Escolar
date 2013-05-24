@@ -1,6 +1,6 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sistema_Escolar.SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sistema_Escolar.SiteMaster" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,13 +17,16 @@
     <div class="page">
         <div class="tituloPrincipal">
             <div class="logoIzquierdo">
-            </div>
+                <img src="../Imagenes/fime.jpg" alt="fime" id="fime" style="height: 94px; width: 77px" /></div>
             <div class="logoDerecho">
-                &nbsp;</div>
+                <img src="../Imagenes/UANL (1).png" alt="Celeco" style="height: 90px; width: 109px;
+                    margin-left: 0px" />
+            </div>
             <div>
                 <br />
                 <h1>
-                    &nbsp;</h1>
+                    Sistema Escolar
+                </h1>
                 <p>
                     &nbsp;</p>
             </div>

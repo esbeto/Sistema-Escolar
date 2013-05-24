@@ -11,7 +11,7 @@
         <br />
         <table>
             <tr>
-                <th colspan="2" class="style3">
+                <th colspan="2">
                     <asp:Label ID="LblDatos" runat="server" Text="DATOS DEL ALUMNO"></asp:Label>
                 </th>
                 <tr>
@@ -31,7 +31,7 @@
                     <asp:TextBox ID="txtfec_adm" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
-            <th colspan="2" class="style3">
+            <th colspan="2">
                 <asp:Label ID="lbldtos_gen" runat="server" Text="DATOS GENERALES"></asp:Label>
             </th>
             </tr>
