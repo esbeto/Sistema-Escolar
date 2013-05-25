@@ -37,7 +37,8 @@
     <br />
     <br />
     <div style=" margin-left: 45%;">
-        <asp:Button ID="Button1" runat="server" Text="Aceptar" CssClass="buttonStyle"  />
+        <asp:Button ID="Button1" runat="server" Text="Aceptar" CssClass="buttonStyle" 
+            onclick="Button1_Click"  />
         <br />
     </div>
 </asp:Content>
