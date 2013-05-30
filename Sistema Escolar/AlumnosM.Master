@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AlumnosM.Master.cs" Inherits="Sistema_Escolar.AlumnosM" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AlumnosM.Master.cs" Inherits="Sistema_Escolar.AlumnosM" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -34,7 +34,7 @@
                     <li><a href="">Datos Generales</a>
                         <ul>
                             <li><a href="../Alumno/Datosalum.aspx">Datos del Alumno</a></li>
-                            <li><a href="../Alumno/DomicilioAlum.aspx">Domincilio</a></li>
+                            <li><a href="../Alumno/DomicilioAlum.aspx">Domicilio</a></li>
                             <li><a href="../Alumno/Datospadreotut.aspx">Padre o tutor</a></li>
                             <li><a href="../Alumno/trabajoalum.aspx">Trabajo</a></li>
                         </ul>
