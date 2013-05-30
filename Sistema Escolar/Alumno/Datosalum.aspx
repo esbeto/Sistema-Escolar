@@ -39,10 +39,7 @@
                 <asp:Label ID="lblsexo" runat="server" Text="Sexo:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="ddsexo" runat="server">
-                    <asp:ListItem>Femenino</asp:ListItem>
-                    <asp:ListItem>Masculino</asp:ListItem>
-                </asp:DropDownList>
+                <asp:TextBox ID="txtsex" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -50,10 +47,7 @@
                 <asp:Label ID="lblestciv" runat="server" Text="Estado Civil:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="ddestadociv" runat="server">
-                    <asp:ListItem>Soltero(a)</asp:ListItem>
-                    <asp:ListItem>Casado(a)</asp:ListItem>
-                </asp:DropDownList>
+                <asp:TextBox ID="txtec" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -69,12 +63,7 @@
                 <asp:Label ID="lbltipsan" runat="server" Text="Tipo de Sangre:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="ddtipsan" runat="server">
-                    <asp:ListItem>AB</asp:ListItem>
-                    <asp:ListItem>A</asp:ListItem>
-                    <asp:ListItem>B</asp:ListItem>
-                    <asp:ListItem>O</asp:ListItem>
-                </asp:DropDownList>
+                <asp:TextBox ID="txttipsan" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -132,25 +121,6 @@
         </tr>
         <tr>
             <th colspan="2">
-                DATOS ADICIONALES
-            </th>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="lbldis" runat="server" CssClass="etiquetas" Text="Discapacidad:"></asp:Label>
-            </td>
-            <td>
-                <asp:DropDownList ID="DDdiscapacidad" runat="server">
-                </asp:DropDownList>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Label ID="Label2" runat="server" CssClass="etiquetas" Text="Trabajo:"></asp:Label>
-            </td>
-        </tr>
-        <tr>
-            <th colspan="2">
                 NACIMIENTO
             </th>
         </tr>
@@ -189,6 +159,7 @@
     </table>
     <div>
         <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
-            CommandName="guardar" Height="40px" Width="45px" Visible="False" OnClick="imgbtnguardar_Click" />
+            CommandName="guardar" Height="40px" Width="45px" 
+            OnClick="imgbtnguardar_Click" />
     </div>
 </asp:Content>

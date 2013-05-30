@@ -14,7 +14,7 @@
                 <asp:Label ID="lblcall" runat="server" CssClass="etiquetas" Text="Calle:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcalle" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -22,13 +22,13 @@
                 <asp:Label ID="lblcol" runat="server" CssClass="etiquetas" Text="Colonia:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcol" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <td>
                 <asp:Label ID="Label2" runat="server" CssClass="etiquetas" Text="CP:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcp" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -42,7 +42,8 @@
     </table>
     <div>
         <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
-            CommandName="guardar" Height="34px" Width="35px" Visible="False" />
+            CommandName="guardar" Height="34px" Width="35px" 
+            onclick="imgbtnguardar_Click" />
     </div>
     <table>
         <tr>
@@ -55,7 +56,7 @@
                 <asp:Label ID="lblcall0" runat="server" CssClass="etiquetas" Text="Calle:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox4" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcallef" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -63,13 +64,13 @@
                 <asp:Label ID="lblcol0" runat="server" CssClass="etiquetas" Text="Colonia:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox5" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcolf" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
             <td>
                 <asp:Label ID="lblcp0" runat="server" CssClass="etiquetas" Text="CP:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox6" runat="server" CssClass="textBox"></asp:TextBox>
+                <asp:TextBox ID="txtcpf" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -77,8 +78,7 @@
                 <asp:Label ID="lblpais0" runat="server" CssClass="etiquetas" Text="Pais:"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                </asp:DropDownList>
+                <asp:TextBox ID="txtpaisf" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -86,8 +86,7 @@
                 <asp:Label ID="lblestado0" runat="server" CssClass="etiquetas" Text="Estado:"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="DropDownList2" runat="server">
-                </asp:DropDownList>
+                <asp:TextBox ID="txtestf" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -95,8 +94,7 @@
                 <asp:Label ID="lblciudad0" runat="server" CssClass="etiquetas" Text="Ciudad:"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="DropDownList3" runat="server">
-                </asp:DropDownList>
+                <asp:TextBox ID="txtciuf" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
     </table>

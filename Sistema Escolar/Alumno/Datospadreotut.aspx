@@ -53,26 +53,19 @@
             <td>
                 <asp:TextBox ID="txttel" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
-            <td>
-                <asp:Label ID="lblcel" runat="server" CssClass="etiquetas" Text="Celular:"></asp:Label>
-            </td>
-            <td>
-                <asp:TextBox ID="txtcel" runat="server" CssClass="textBox"></asp:TextBox>
-            </td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblmail" runat="server" CssClass="etiquetas" Text="Correo Electronico:"></asp:Label>
-            </td>
+                &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtmail" runat="server" CssClass="textBox"></asp:TextBox>
-            </td>
+                &nbsp;</td>
         </tr>
     </table>
     <br />
     <div>
         <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
-            CommandName="guardar" Height="34px" Width="35px" Visible="False" />
+            CommandName="guardar" Height="34px" Width="35px" 
+            onclick="imgbtnguardar_Click" />
     </div>
     <br />
 </asp:Content>

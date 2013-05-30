@@ -2,6 +2,12 @@
     CodeBehind="trabajoalum.aspx.cs" Inherits="Sistema_Escolar.Alumno.trabajoalum" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <style type="text/css">
+        .textBox
+        {
+            height: 22px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <table>
@@ -9,11 +15,8 @@
             <td>
                 <asp:Label ID="lbltrab" runat="server" CssClass="etiquetas" Text="Trabaja:"></asp:Label>
             </td>
-            <td>
-                <asp:DropDownList ID="ddtrab" runat="server" Style="height: 22px">
-                    <asp:ListItem>SI</asp:ListItem>
-                    <asp:ListItem>NO</asp:ListItem>
-                </asp:DropDownList>
+            <td id="txttrab">
+                <asp:TextBox ID="txttrab" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -77,23 +80,23 @@
                 <asp:Label ID="lblhoraen" runat="server" CssClass="etiquetas" Text="Hora de Entrada:"></asp:Label>
             </td>
             <td class="etiquetas">
-                <asp:TextBox ID="txthorae" runat="server" CssClass="textBox" Height="16px" Width="31px"></asp:TextBox>
-                &nbsp;:
-                <asp:TextBox ID="txthorae0" runat="server" CssClass="textBox" Height="16px" Width="31px"></asp:TextBox>
+                <asp:TextBox ID="txthrent" runat="server" CssClass="textBox" Height="16px" 
+                    Width="97px"></asp:TextBox>
             </td>
             <td>
                 <asp:Label ID="lblhrsal" runat="server" CssClass="etiquetas" Text="Hora de Salida:"></asp:Label>
             </td>
             <td class="etiquetas">
-                <asp:TextBox ID="txthrsal" runat="server" CssClass="textBox" Height="16px" Width="30px"></asp:TextBox>
-                &nbsp;:
-                <asp:TextBox ID="txthorae1" runat="server" CssClass="textBox" Height="16px" Width="31px"></asp:TextBox>
+                <asp:TextBox ID="txthrsal" runat="server" CssClass="textBox" Height="17px" 
+                    Width="88px"></asp:TextBox>
+                &nbsp;
             </td>
         </tr>
     </table>
     <br />
     <div style="margin-left: 70%;">
         <asp:ImageButton ID="imgbtnguardar" runat="server" ImageUrl="~/Imagenes/save.png"
-            CommandName="guardar" Height="34px" Width="35px" Visible="False" />
+            CommandName="guardar" Height="34px" Width="35px" 
+            onclick="imgbtnguardar_Click" />
     </div>
 </asp:Content>
