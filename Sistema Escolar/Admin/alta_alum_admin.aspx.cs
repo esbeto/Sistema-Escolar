@@ -43,18 +43,61 @@ namespace Sistema_Escolar.Admin
 
         protected void imgbtnguardar0_Click(object sender, ImageClickEventArgs e)
         {
-            /*
-            String idAlumno = Session["idAlumno"].ToString();
             SqlConnection sqlCon = new SqlConnection(conexionest);
-            SqlCommand sqlCommand = new SqlCommand("update Padre_tutor set calle = '" + Txtcalle.Text + "', colonia = '" + txtcol.Text + "', " +
-            "pais = '" + txtpais.Text + "', estado ='" + txtest.Text + "', ciudad = '" + txtciu.Text + "', telefono = '" + txttel.Text + "' " +
-            "where ID_alumno = '" + idAlumno + "'", sqlCon);
+            SqlCommand sqlCommand = new SqlCommand(
+                "INSERT INTO [SistemaEscolar2].[dbo].[Alumnos]"
+                     + "([ID_alumno],"
+                     + "[Nombre],"
+                     + "[apellido_p],"
+                     + "[apellido_m],"
+                     + "[correo],"
+                     + "[curp],"
+                     + "[sexo],"
+                     + "[ID_Estadocivil],"
+                     + "[Telefono],"
+                     + "[Nombre_Madre],"
+                     + "[Nombre_Padre],"
+                     + "[ID_discapacidad],"
+                     + "[RFC],"
+                     + "[ID_Tiposangre],"
+                     + "[ID_nacionalidad],"
+                     + "[Celular],"
+                     + "[trabaja],"
+                     + "[fecha_nacimiento],"
+                     + "[pais],"
+                     + "[Estado],"
+                     + "[Ciudad],"
+                     + "[fechaadm])"
+                + "VALUES"
+                     + "(" + txtmat.Text
+                     + "," + Txtnom.Text
+                     + "," + Txtapp.Text
+                     + "," + Txtapm.Text
+                     + "," + Txtcorr.Text
+                     + "," + Txtcurp.Text
+                     + "," + ddsexo.Text /*
+                     + "," + ddedocivil
+                     + "," + Txtrtel1.Text
+                     + "," + Txtnomm.Text
+                     + "," + Txtnomp.Text
+                     + "," + DDdiscapacidad
+                     + "," + txtRFC.Text
+                     + "," + ddtipsan
+                     + "," + Dd_nac_alum
+                     + "," + txttel2.Text
+                     + "," + chcktrabaja
+                     + "," + Txtfec_nac.Text
+                     + "," + txtpais.Text
+                     + "," + txtedo.Text
+                     + "," + txtcd.Text */
+                     + "," + txtfec_adm.Text
+                     + ")", sqlCon);
             sqlCommand.CommandType = CommandType.Text;
             sqlCommand.CommandTimeout = 4000;
             sqlCon.Open();
-            sqlCommand.ExecuteNonQuery(); //para update,inset,delete
+            sqlCommand.ExecuteNonQuery();
             sqlCon.Close();
-            */
+            
         }
     }
 }
