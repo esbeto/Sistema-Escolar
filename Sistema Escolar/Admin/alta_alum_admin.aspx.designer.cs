@@ -166,13 +166,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblnac;
         
         /// <summary>
-        /// Txtnac control.
+        /// ddnacionalidad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtnac;
+        protected global::System.Web.UI.WebControls.DropDownList ddnacionalidad;
         
         /// <summary>
         /// Lblcurp control.
@@ -191,6 +191,24 @@ namespace Sistema_Escolar.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Txtcurp;
+        
+        /// <summary>
+        /// Lbledocivil control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Lbledocivil;
+        
+        /// <summary>
+        /// ddedocivil control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddedocivil;
         
         /// <summary>
         /// LblCon control.
@@ -481,13 +499,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Lblnamtut;
         
         /// <summary>
-        /// Txtnamtut control.
+        /// Txtnomp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtnamtut;
+        protected global::System.Web.UI.WebControls.TextBox Txtnomp;
         
         /// <summary>
         /// Llbapptut control.
@@ -499,31 +517,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Llbapptut;
         
         /// <summary>
-        /// Txtapptut control.
+        /// Txtnomm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtapptut;
-        
-        /// <summary>
-        /// Llbapmtut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Llbapmtut;
-        
-        /// <summary>
-        /// Txtapmtut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtapmtut;
+        protected global::System.Web.UI.WebControls.TextBox Txtnomm;
         
         /// <summary>
         /// Lblpar control.
@@ -695,87 +695,6 @@ namespace Sistema_Escolar.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Txtempad;
-        
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// Labeltut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Labeltut;
-        
-        /// <summary>
-        /// Texttut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Texttut;
-        
-        /// <summary>
-        /// Labelaptut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Labelaptut;
-        
-        /// <summary>
-        /// Textaptut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textaptut;
-        
-        /// <summary>
-        /// Labelamtut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Labelamtut;
-        
-        /// <summary>
-        /// Textamtut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textamtut;
-        
-        /// <summary>
-        /// Labelpartut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Labelpartut;
-        
-        /// <summary>
-        /// Textpartut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Textpartut;
         
         /// <summary>
         /// Labelconttut control.

@@ -80,7 +80,8 @@
                     <asp:Label ID="Lblnac" runat="server" Text="Nacionalidad:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="Txtnac" runat="server" CssClass="textBox"></asp:TextBox>
+                    <asp:DropDownList ID="ddnacionalidad" runat="server">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
@@ -89,6 +90,15 @@
                 </td>
                 <td>
                     <asp:TextBox ID="Txtcurp" runat="server" CssClass="textBox"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Lbledocivil" runat="server" Text="Estado Civil:"></asp:Label>
+                </td>
+                <td>
+                   <asp:DropDownList ID="ddedocivil" runat="server">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
@@ -230,27 +240,21 @@
                     <asp:TextBox ID="Txttel" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
-            <th colspan="2" class="style3">
+            <th colspan="2">
                 <asp:Label ID="Lbldtut" runat="server" Text="DATOS PADRES O TUTOR"></asp:Label>
             </th>
             <tr>
                 <td>
-                    <asp:Label ID="Lblnamtut" runat="server" Text="Nombre:" CssClass="etiquetas"></asp:Label>
+                    <asp:Label ID="Lblnamtut" runat="server" Text="Nombre del Padre:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="Txtnamtut" runat="server" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="Txtnomp" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:Label ID="Llbapptut" runat="server" Text="Apellido Paterno:" CssClass="etiquetas"></asp:Label>
+                    <asp:Label ID="Llbapptut" runat="server" Text="Nombre de la Madre:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="Txtapptut" runat="server" CssClass="textBox"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:Label ID="Llbapmtut" runat="server" Text="Apellido Materno:" CssClass="etiquetas"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="Txtapmtut" runat="server" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="Txtnomm" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -340,38 +344,6 @@
                 </td>
                 <td>
                     <asp:TextBox ID="Txtempad" runat="server" CssClass="textBox"></asp:TextBox>
-                </td>
-            </tr>
-            </tr>
-            <th colspan="2" class="style3">
-                <asp:Label ID="Label1" runat="server" Text="TUTOR"></asp:Label>
-            </th>
-            <tr>
-                <td>
-                    <asp:Label ID="Labeltut" runat="server" Text="Nombre:" CssClass="etiquetas"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="Texttut" runat="server" CssClass="textBox"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:Label ID="Labelaptut" runat="server" Text="Apellido Paterno:" CssClass="etiquetas"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="Textaptut" runat="server" CssClass="textBox"></asp:TextBox>
-                </td>
-                <td>
-                    <asp:Label ID="Labelamtut" runat="server" Text="Apellido Materno:" CssClass="etiquetas"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="Textamtut" runat="server" CssClass="textBox"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Labelpartut" runat="server" Text="Parentesco:" CssClass="etiquetas"></asp:Label>
-                </td>
-                <td>
-                    <asp:TextBox ID="Textpartut" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
             <tr>
