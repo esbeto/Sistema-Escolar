@@ -22,6 +22,8 @@ namespace Sistema_Escolar.Admin
                 DataTable dtResult = new DataTable();
                 DataTable dtEstadocivil = new DataTable();
                 DataTable dtNacional = new DataTable();
+                DataTable dtSangre = new DataTable();
+                DataTable dtDiscapacidad = new DataTable();
 
                 SqlCommand sqlCommand = new SqlCommand(
                     "SELECT TOP 1 [ID_alumno]" +
@@ -35,11 +37,14 @@ namespace Sistema_Escolar.Admin
                 SqlCommand nacionalidad = new SqlCommand(
                     "SELECT * FROM Cat_Nacionalidad", sqlCon);
 
+                SqlCommand tiposangre = new SqlCommand(
+                    "SELECT * FROM Cat_Tiposangre", sqlCon);
+
+                SqlCommand discapacidad = new SqlCommand(
+                    "SELECT * FROM Cat_Discapacidad", sqlCon);
+
                 sqlCommand.CommandType = CommandType.Text;
                 sqlCommand.CommandTimeout = 4000;
-
-                idestadocivil.CommandType = CommandType.Text;
-                idestadocivil.CommandTimeout = 4000;
 
                 da.SelectCommand = (SqlCommand)sqlCommand;
                 sqlCon.Open();
@@ -48,6 +53,10 @@ namespace Sistema_Escolar.Admin
                 da.Fill(dtEstadocivil);
                 da.SelectCommand = (SqlCommand)nacionalidad;
                 da.Fill(dtNacional);
+                da.SelectCommand = (SqlCommand)tiposangre;
+                da.Fill(dtSangre);
+                da.SelectCommand = (SqlCommand)discapacidad;
+                da.Fill(dtDiscapacidad);
                 sqlCon.Close();
 
                 // Toma la última matrícula y guárdala
@@ -66,10 +75,23 @@ namespace Sistema_Escolar.Admin
                 ddedocivil.DataValueField = "ID_estadocivil";
                 ddedocivil.DataBind();
 
+                // Nacionalidad
                 ddnacionalidad.DataSource = dtNacional;
                 ddnacionalidad.DataTextField = "Nacionalidad";
                 ddnacionalidad.DataValueField = "ID_Nacionalidad";
                 ddnacionalidad.DataBind();
+
+                // Tipo de Sangre
+                ddtipsan.DataSource = dtSangre;
+                ddtipsan.DataTextField = "Tiposangre";
+                ddtipsan.DataValueField = "ID_Tiposangre";
+                ddtipsan.DataBind();
+
+                // Discapacidad
+                dddiscapacidad.DataSource = dtDiscapacidad;
+                dddiscapacidad.DataTextField = "Discapacidad";
+                dddiscapacidad.DataValueField = "ID_Discapacidad";
+                dddiscapacidad.DataBind();
             }
         }
 
@@ -112,14 +134,14 @@ namespace Sistema_Escolar.Admin
                      + "," + Txtrtel1.Text
                      + "," + Txtnomm.Text
                      + "," + Txtnomp.Text
-                     + "," + DDdiscapacidad /*
+                     + "," + dddiscapacidad
                      + "," + txtRFC.Text
                      + "," + ddtipsan
-                     + "," + Dd_nac_alum
+                     + "," + ddnacionalidad
                      + "," + Txttel2.Text
-                     + "," + chcktrabaja
+                     + "," + ddtrabaja
                      + "," + Txtfec_nac.Text
-                     + "," + txtpais.Text
+                     + "," + txtpais.Text /*
                      + "," + txtedo.Text
                      + "," + txtcd.Text */
                      + "," + txtfec_adm.Text

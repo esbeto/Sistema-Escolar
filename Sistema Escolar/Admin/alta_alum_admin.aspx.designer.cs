@@ -193,6 +193,24 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.TextBox Txtcurp;
         
         /// <summary>
+        /// LblRFC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblRFC;
+        
+        /// <summary>
+        /// txtRFC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtRFC;
+        
+        /// <summary>
         /// Lbledocivil control.
         /// </summary>
         /// <remarks>
@@ -886,13 +904,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Labeldis;
         
         /// <summary>
-        /// DDdiscapacidad control.
+        /// dddiscapacidad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDdiscapacidad;
+        protected global::System.Web.UI.WebControls.DropDownList dddiscapacidad;
         
         /// <summary>
         /// Labelt_san control.
@@ -967,13 +985,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Labeltrab_alu;
         
         /// <summary>
-        /// Radbt1 control.
+        /// ddtrabaja control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton Radbt1;
+        protected global::System.Web.UI.WebControls.DropDownList ddtrabaja;
         
         /// <summary>
         /// Labelnom_emp control.
@@ -1057,13 +1075,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Labelpais_emp;
         
         /// <summary>
-        /// DropDownList9 control.
+        /// txtpais control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
+        protected global::System.Web.UI.WebControls.TextBox txtpais;
         
         /// <summary>
         /// Labelcp_emp control.

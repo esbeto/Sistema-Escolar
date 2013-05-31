@@ -94,6 +94,14 @@
             </tr>
             <tr>
                 <td>
+                    <asp:Label ID="LblRFC" runat="server" Text="RFC:"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtRFC" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <asp:Label ID="Lbledocivil" runat="server" Text="Estado Civil:"></asp:Label>
                 </td>
                 <td>
@@ -153,7 +161,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Llbtel1" runat="server" Text="Telefono 1:" CssClass="etiquetas"></asp:Label>
+                    <asp:Label ID="Llbtel1" runat="server" Text="Telefono:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="Txtrtel1" runat="server" CssClass="textBox"></asp:TextBox>
@@ -161,7 +169,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Label ID="Lbltel2" runat="server" Text="Telefono 2:" CssClass="etiquetas"></asp:Label>
+                    <asp:Label ID="Lbltel2" runat="server" Text="Celular:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="Txttel2" runat="server" CssClass="textBox"></asp:TextBox>
@@ -444,7 +452,7 @@
                 <asp:Label ID="Labeldis" runat="server" Text="Discapacidad:" CssClass="etiquetas"></asp:Label>
             </td>
             <td>
-                <asp:DropDownList ID="DDdiscapacidad" runat="server">
+                <asp:DropDownList ID="dddiscapacidad" runat="server">
                 </asp:DropDownList>
             </td>
             <tr>
@@ -453,10 +461,6 @@
                 </td>
                 <td>
                     <asp:DropDownList ID="ddtipsan" runat="server">
-                        <asp:ListItem>AB</asp:ListItem>
-                        <asp:ListItem>A</asp:ListItem>
-                        <asp:ListItem>B</asp:ListItem>
-                        <asp:ListItem>O</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -486,7 +490,10 @@
                         <asp:Label ID="Labeltrab_alu" runat="server" Text="Trabaja:" CssClass="etiquetas"></asp:Label>
                     </td>
                     <td>
-                        <asp:RadioButton ID="Radbt1" runat="server" />
+                        <asp:DropDownList ID="ddtrabaja" runat="server">
+                            <asp:ListItem Text="Si" Value="si" />
+                            <asp:ListItem Text="No" Value="no" />
+                        </asp:DropDownList>
                     </td>
                 </tr>
             </tr>
@@ -539,14 +546,7 @@
                     <asp:Label ID="Labelpais_emp" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList9" runat="server">
-                        <asp:ListItem>Mexico</asp:ListItem>
-                        <asp:ListItem>2</asp:ListItem>
-                        <asp:ListItem>3</asp:ListItem>
-                        <asp:ListItem>4</asp:ListItem>
-                        <asp:ListItem>5</asp:ListItem>
-                        <asp:ListItem>6</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="txtpais" runat="server" Text="Mexico"></asp:TextBox>
                 </td>
             </tr>
             <tr>
