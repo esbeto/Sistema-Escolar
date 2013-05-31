@@ -15,7 +15,7 @@
             <td>
                 <asp:Label ID="lbltrab" runat="server" CssClass="etiquetas" Text="Trabaja:"></asp:Label>
             </td>
-            <td id="txttrab">
+            <td>
                 <asp:TextBox ID="txttrab" runat="server" CssClass="textBox"></asp:TextBox>
             </td>
         </tr>

@@ -22,13 +22,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblcall;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtcalle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtcalle;
         
         /// <summary>
         /// lblcol control.
@@ -40,13 +40,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblcol;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtcol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtcol;
         
         /// <summary>
         /// Label2 control.
@@ -58,13 +58,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// TextBox3 control.
+        /// txtcp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtcp;
         
         /// <summary>
         /// lblciudad control.
@@ -103,13 +103,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblcall0;
         
         /// <summary>
-        /// TextBox4 control.
+        /// txtcallef control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox txtcallef;
         
         /// <summary>
         /// lblcol0 control.
@@ -121,13 +121,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblcol0;
         
         /// <summary>
-        /// TextBox5 control.
+        /// txtcolf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtcolf;
         
         /// <summary>
         /// lblcp0 control.
@@ -139,13 +139,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblcp0;
         
         /// <summary>
-        /// TextBox6 control.
+        /// txtcpf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtcpf;
         
         /// <summary>
         /// lblpais0 control.
@@ -157,13 +157,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblpais0;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// txtpaisf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.TextBox txtpaisf;
         
         /// <summary>
         /// lblestado0 control.
@@ -175,13 +175,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblestado0;
         
         /// <summary>
-        /// DropDownList2 control.
+        /// txtestf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.TextBox txtestf;
         
         /// <summary>
         /// lblciudad0 control.
@@ -193,12 +193,12 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblciudad0;
         
         /// <summary>
-        /// DropDownList3 control.
+        /// txtciuf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.TextBox txtciuf;
     }
 }

@@ -18,8 +18,8 @@ namespace Sistema_Escolar.Alumno
         {
             if (!IsPostBack)
             {
-
-                /* SqlConnection sqlCon = new SqlConnection(conexionest);
+                /*
+                 SqlConnection sqlCon = new SqlConnection(conexionest);
                  SqlDataAdapter da = new SqlDataAdapter();
                  DataTable dtResult = new DataTable();
 
@@ -38,7 +38,8 @@ namespace Sistema_Escolar.Alumno
                  txttel.Text = dtResult.Rows[0]["telefono"].ToString();
                  txthrent.Text = dtResult.Rows[0]["Hora_entrada"].ToString();
                  txthrsal.Text = dtResult.Rows[0]["Hora_salida"].ToString();
-                 txtmail.Text = dtResult.Rows[0]["mail"].ToString();*/
+                 txtmail.Text = dtResult.Rows[0]["mail"].ToString();
+                 */
             }
         }
     }

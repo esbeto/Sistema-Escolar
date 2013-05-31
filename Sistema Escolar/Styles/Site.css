@@ -103,6 +103,10 @@ th {
     display: block;
 }
 
-
+input[readonly="readonly"] 
+{
+    color: #666;
+    background-color: #CCC;
+}
 
 

@@ -19,7 +19,7 @@
                         <asp:Label ID="lblmat" runat="server" Text="Matricula:" CssClass="etiquetas"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="txtmat" runat="server" CssClass="textBox"></asp:TextBox>
+                        <asp:TextBox ID="txtmat" runat="server" CssClass="textBox" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
             </tr>
@@ -28,7 +28,8 @@
                     <asp:Label ID="lblfec_adm" runat="server" Text="Fecha de Admision:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtfec_adm" runat="server" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="txtfec_adm" runat="server" CssClass="textBox" 
+                        ToolTip="Formato: AAAA-MM-DD"></asp:TextBox>
                 </td>
             </tr>
             <th colspan="2">
@@ -68,7 +69,7 @@
                     <asp:Label ID="Lblsex" runat="server" Text="Sexo:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="ddsexo" runat="server" OnSelectedIndexChanged="ddsexo_SelectedIndexChanged">
+                    <asp:DropDownList ID="ddsexo" runat="server">
                         <asp:ListItem>Femenino</asp:ListItem>
                         <asp:ListItem>Masculino</asp:ListItem>
                     </asp:DropDownList>
@@ -412,7 +413,7 @@
                     <asp:Label ID="Labelesttut" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList5" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
+                    <asp:DropDownList ID="DropDownList5" runat="server">
                         <asp:ListItem>Nuevo Leon</asp:ListItem>
                         <asp:ListItem>2</asp:ListItem>
                         <asp:ListItem>3</asp:ListItem>
@@ -551,7 +552,7 @@
                     <asp:Label ID="Labelest_emp" runat="server" Text="Estado:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList8" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
+                    <asp:DropDownList ID="DropDownList8" runat="server">
                         <asp:ListItem>Nuevo Leon</asp:ListItem>
                         <asp:ListItem>2</asp:ListItem>
                         <asp:ListItem>3</asp:ListItem>
@@ -566,7 +567,7 @@
                     <asp:Label ID="Labelpais_emp" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList9" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
+                    <asp:DropDownList ID="DropDownList9" runat="server">
                         <asp:ListItem>Mexico</asp:ListItem>
                         <asp:ListItem>2</asp:ListItem>
                         <asp:ListItem>3</asp:ListItem>
@@ -601,7 +602,8 @@
     </div>
     <div>
         <asp:ImageButton ID="imgbtnguardar0" runat="server" ImageUrl="~/Imagenes/save.png"
-            CommandName="guardar" Height="34px" Width="35px" />
+            CommandName="guardar" Height="34px" Width="35px" 
+            onclick="imgbtnguardar0_Click" />
         <asp:Button ID="Btnelimi" runat="server" Text="ELIMINAR" />
     </div>
     <br />

@@ -76,13 +76,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblsexo;
         
         /// <summary>
-        /// ddsexo control.
+        /// txtsex control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddsexo;
+        protected global::System.Web.UI.WebControls.TextBox txtsex;
         
         /// <summary>
         /// lblestciv control.
@@ -94,13 +94,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblestciv;
         
         /// <summary>
-        /// ddestadociv control.
+        /// txtec control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddestadociv;
+        protected global::System.Web.UI.WebControls.TextBox txtec;
         
         /// <summary>
         /// lblrfc control.
@@ -130,13 +130,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lbltipsan;
         
         /// <summary>
-        /// ddtipsan control.
+        /// txttipsan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddtipsan;
+        protected global::System.Web.UI.WebControls.TextBox txttipsan;
         
         /// <summary>
         /// lblnaci control.
@@ -245,33 +245,6 @@ namespace Sistema_Escolar.Alumno {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtnomm;
-        
-        /// <summary>
-        /// lbldis control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbldis;
-        
-        /// <summary>
-        /// DDdiscapacidad control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDdiscapacidad;
-        
-        /// <summary>
-        /// Label2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// lblfech control.

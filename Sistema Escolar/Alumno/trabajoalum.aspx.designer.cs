@@ -22,13 +22,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lbltrab;
         
         /// <summary>
-        /// ddtrab control.
+        /// txttrab control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddtrab;
+        protected global::System.Web.UI.WebControls.TextBox txttrab;
         
         /// <summary>
         /// lblemp control.
@@ -166,22 +166,13 @@ namespace Sistema_Escolar.Alumno {
         protected global::System.Web.UI.WebControls.Label lblhoraen;
         
         /// <summary>
-        /// txthorae control.
+        /// txthrent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txthorae;
-        
-        /// <summary>
-        /// txthorae0 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txthorae0;
+        protected global::System.Web.UI.WebControls.TextBox txthrent;
         
         /// <summary>
         /// lblhrsal control.
@@ -200,15 +191,6 @@ namespace Sistema_Escolar.Alumno {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txthrsal;
-        
-        /// <summary>
-        /// txthorae1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txthorae1;
         
         /// <summary>
         /// imgbtnguardar control.
