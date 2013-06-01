@@ -8,20 +8,26 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lblidesp" runat="server" Text="ID Especialidad:"></asp:Label>
-    <asp:TextBox ID="Txtidesp" runat="server"></asp:TextBox>
     <asp:Label ID="Lbesp" runat="server" Text="Especialidad:"></asp:Label>
     <asp:TextBox ID="Txtesp" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
     <br />
-    <asp:GridView ID="GridView13" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+    <asp:GridView ID="Gv1" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Especialidad" />
-            <asp:BoundField DataField="" HeaderText=" Especialidad" />
+        <asp:TemplateField HeaderText="Especialidad" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblDias" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.especialidad_desc") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
+       <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
     <br />
 </asp:Content>

@@ -8,19 +8,25 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lblidmodalidad" runat="server" Text="ID Modalidad:"></asp:Label>
-    <asp:TextBox ID="Txtidmodalidad" runat="server"></asp:TextBox>
     <asp:Label ID="Lblmodalidad" runat="server" Text="Modalidad:"></asp:Label>
     <asp:TextBox ID="Txtmodalidad" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
     <br />
-    <asp:GridView ID="GridView7" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+    <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
+    <asp:GridView ID="Gvmod" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Modalidad" />
-            <asp:BoundField DataField="" HeaderText="Modalidad" />
+        <asp:TemplateField HeaderText="Modalidad" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblmod" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.Modalidad_desc") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
     <br />

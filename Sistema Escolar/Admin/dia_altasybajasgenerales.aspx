@@ -8,19 +8,26 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lbliddia" runat="server" Text="ID Dia:"></asp:Label>
-    <asp:TextBox ID="Txtiddia" runat="server"></asp:TextBox>
     <asp:Label ID="Lbldia" runat="server" Text="Dia:"></asp:Label>
     <asp:TextBox ID="Txtdia" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
     <br />
-    <asp:GridView ID="GridVie14" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+    <br />
+            <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
+    <asp:GridView ID="Gv1" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Dia" />
-            <asp:BoundField DataField="" HeaderText="Dia" />
+        <asp:TemplateField HeaderText="dias" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblDias" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.dias") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
     <br />

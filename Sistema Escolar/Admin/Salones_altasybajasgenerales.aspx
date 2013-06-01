@@ -8,19 +8,30 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lblidsalon" runat="server" Text="ID Salon:"></asp:Label>
-    <asp:TextBox ID="Txtidsalon" runat="server"></asp:TextBox>
     <asp:Label ID="Lblsalon" runat="server" Text="Salon:"></asp:Label>
     <asp:TextBox ID="Txtsalon" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
+     <asp:Label ID="Lblcap" runat="server" Text="Capacidad:"></asp:Label>
+    <asp:TextBox ID="Txtcap" runat="server"></asp:TextBox>
     <br />
-    <asp:GridView ID="GridView5" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+     <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
+    <br />
+    <br />
+    <asp:GridView ID="Gvx" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Salon" />
-            <asp:BoundField DataField="" HeaderText="Salon" />
+        <asp:TemplateField HeaderText="Salon" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblsalon" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.salon_desc") %>'></asp:Label>
+        <asp:Label ID = "Lblcap" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.capacidad") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
     <br />

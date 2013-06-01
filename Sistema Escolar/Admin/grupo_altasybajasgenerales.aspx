@@ -8,19 +8,26 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lblidgpo" runat="server" Text="ID Grupo:"></asp:Label>
-    <asp:TextBox ID="Txtidgpo" runat="server"></asp:TextBox>
     <asp:Label ID="Lblgpo" runat="server" Text="Grupo:"></asp:Label>
     <asp:TextBox ID="Txtgpo" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
+
     <br />
-    <asp:GridView ID="GridView12" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+       <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
+  <asp:GridView ID="Gvgpo" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Grupo" />
-            <asp:BoundField DataField="" HeaderText=" Grupo" />
+        <asp:TemplateField HeaderText="Grupos" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblGrupo" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.nombre_grupo") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
     <br />
