@@ -102,11 +102,13 @@ namespace Sistema_Escolar.Admin
             Int16 DDdiscapacidad = Convert.ToInt16(dddiscapacidad.SelectedValue);
             Int16 DDtipsan = Convert.ToInt16(ddtipsan.SelectedValue);
             Int16 DDnacionalidad = Convert.ToInt16(ddnacionalidad.SelectedValue);
+            SqlDataAdapter da = new SqlDataAdapter();
+            DataTable dt = new DataTable();
 
-            if (busqueda.Text != String.Empty) {
-                SqlCommand sqlbuscar = new SqlCommand(
-                    "SELECT * FROM Alumnos WHERE ID_alumno = " + busqueda, sqlCon);
-            }
+
+            SqlCommand sqlbuscar = new SqlCommand(
+                "SELECT * FROM Alumnos WHERE ID_alumno = " + busqueda, sqlCon);
+
             SqlCommand sqlCommand = new SqlCommand(
                 "INSERT INTO [SistemaEscolar].[dbo].[Alumnos]"
                      + "([Nombre],"
@@ -155,9 +157,20 @@ namespace Sistema_Escolar.Admin
                      + "')", sqlCon);
             sqlCommand.CommandType = CommandType.Text;
             sqlCommand.CommandTimeout = 4000;
-            sqlCon.Open();
-            sqlCommand.ExecuteNonQuery();
-            sqlCon.Close();
+            if (busqueda.Text != String.Empty)
+            {
+                da.SelectCommand = (SqlCommand)sqlbuscar;
+                sqlCon.Open();
+                da.Fill(dt);
+                sqlCon.Close();
+                
+            }
+            else
+            {
+                sqlCon.Open();
+                sqlCommand.ExecuteNonQuery();
+                sqlCon.Close();
+            }
             
         }
     }
