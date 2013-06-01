@@ -5,9 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div>
-        <td class="style1">
+        <p class="style1">
             Ingrese datos del Alumno. Gracias
-        </td>
+        </p>
         <br />
         <table>
             <tr>
@@ -35,7 +35,6 @@
             <th colspan="2">
                 <asp:Label ID="lbldtos_gen" runat="server" Text="DATOS GENERALES"></asp:Label>
             </th>
-            </tr>
             <tr>
                 <td>
                     <asp:Label ID="Lblnom" runat="server" Text="Nombre(s):" CssClass="etiquetas"></asp:Label>
@@ -109,38 +108,30 @@
                     </asp:DropDownList>
                 </td>
             </tr>
+            <th colspan="2">
+                <asp:Label ID="LblCon" runat="server" Text="CONTACTO"></asp:Label>
+            </th>
             <tr>
-                <th colspan="2">
-                    <asp:Label ID="LblCon" runat="server" Text="CONTACTO"></asp:Label>
-                </th>
-                <tr>
-                    <td>
-                        <asp:Label ID="LblDir" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
-                    </td>
-                    <td>
-                        <asp:TextBox ID="Txtdir" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
-                    </td>
-                </tr>
+                <td>
+                    <asp:Label ID="LblDir" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>s
+                    <asp:TextBox ID="Txtdir" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                </td>
             </tr>
-            <td class="style3">
-                <asp:Label ID="Llbcol" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label>
-            </td>
-            <td>
-                <asp:TextBox ID="Txtcol" runat="server" CssClass="textBox"></asp:TextBox>
-            </td>
+            <tr>
+                <td>
+                    <asp:Label ID="Llbcol" runat="server" Text="Colonia:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtcol" runat="server" CssClass="textBox"></asp:TextBox>
+                </td>
             <tr>
                 <td>
                     <asp:Label ID="Llbcd" runat="server" Text="Ciudad:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="ddsexo0" runat="server">
-                        <asp:ListItem>Monterrey</asp:ListItem>
-                        <asp:ListItem>San Nicolas</asp:ListItem>
-                        <asp:ListItem>Guadalupe</asp:ListItem>
-                        <asp:ListItem>Escobedo</asp:ListItem>
-                        <asp:ListItem>San Pedro</asp:ListItem>
-                        <asp:ListItem>Santa Catarina</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="Txtciud" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -149,6 +140,14 @@
                 </td>
                 <td>
                     <asp:TextBox ID="Txtedo" runat="server" CssClass="textBox"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="Lblpais" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtpais" runat="server" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -546,7 +545,7 @@
                     <asp:Label ID="Labelpais_emp" runat="server" Text="Pais:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtpais" runat="server" Text="Mexico"></asp:TextBox>
+                    <asp:TextBox ID="txtpaistrab" runat="server" Text="Mexico"></asp:TextBox>
                 </td>
             </tr>
             <tr>

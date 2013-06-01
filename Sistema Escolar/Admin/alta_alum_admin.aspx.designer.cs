@@ -283,13 +283,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Llbcd;
         
         /// <summary>
-        /// ddsexo0 control.
+        /// Txtciud control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddsexo0;
+        protected global::System.Web.UI.WebControls.TextBox Txtciud;
         
         /// <summary>
         /// Lbledo control.
@@ -308,6 +308,24 @@ namespace Sistema_Escolar.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Txtedo;
+        
+        /// <summary>
+        /// Lblpais control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Lblpais;
+        
+        /// <summary>
+        /// Txtpais control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Txtpais;
         
         /// <summary>
         /// Lblcp control.
@@ -1075,13 +1093,13 @@ namespace Sistema_Escolar.Admin {
         protected global::System.Web.UI.WebControls.Label Labelpais_emp;
         
         /// <summary>
-        /// txtpais control.
+        /// txtpaistrab control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpais;
+        protected global::System.Web.UI.WebControls.TextBox txtpaistrab;
         
         /// <summary>
         /// Labelcp_emp control.

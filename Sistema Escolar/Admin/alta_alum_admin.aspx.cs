@@ -98,10 +98,15 @@ namespace Sistema_Escolar.Admin
         protected void imgbtnguardar0_Click(object sender, ImageClickEventArgs e)
         {
             SqlConnection sqlCon = new SqlConnection(conexionest);
+            Int16 DDedocivil = Convert.ToInt16(ddedocivil);
+            Int16 DDdiscapacidad = Convert.ToInt16(dddiscapacidad);
+            Int16 DDtipsan = Convert.ToInt16(ddtipsan);
+            Int16 DDnacionalidad = Convert.ToInt16(ddnacionalidad);
+
+
             SqlCommand sqlCommand = new SqlCommand(
-                "INSERT INTO [SistemaEscolar2].[dbo].[Alumnos]"
-                     + "([ID_alumno],"
-                     + "[Nombre],"
+                "INSERT INTO [SistemaEscolar].[dbo].[Alumnos]"
+                     + "([Nombre],"
                      + "[apellido_p],"
                      + "[apellido_m],"
                      + "[correo],"
@@ -123,29 +128,28 @@ namespace Sistema_Escolar.Admin
                      + "[Ciudad],"
                      + "[fechaadm])"
                 + "VALUES"
-                     + "(" + txtmat.Text
-                     + "," + Txtnom.Text
-                     + "," + Txtapp.Text
-                     + "," + Txtapm.Text
-                     + "," + Txtcorr.Text
-                     + "," + Txtcurp.Text
-                     + "," + ddsexo.Text
-                     + "," + ddedocivil
-                     + "," + Txtrtel1.Text
-                     + "," + Txtnomm.Text
-                     + "," + Txtnomp.Text
-                     + "," + dddiscapacidad
-                     + "," + txtRFC.Text
-                     + "," + ddtipsan
-                     + "," + ddnacionalidad
-                     + "," + Txttel2.Text
-                     + "," + ddtrabaja
-                     + "," + Txtfec_nac.Text
-                     + "," + txtpais.Text /*
-                     + "," + txtedo.Text
-                     + "," + txtcd.Text */
-                     + "," + txtfec_adm.Text
-                     + ")", sqlCon);
+                     + "('" + Txtnom.Text
+                     + "','" + Txtapp.Text
+                     + "','" + Txtapm.Text
+                     + "','" + Txtcorr.Text
+                     + "','" + Txtcurp.Text
+                     + "','" + ddsexo.Text
+                     + "','" + DDedocivil
+                     + "','" + Txtrtel1.Text
+                     + "','" + Txtnomm.Text
+                     + "','" + Txtnomp.Text
+                     + "','" + DDdiscapacidad
+                     + "','" + txtRFC.Text
+                     + "','" + DDtipsan
+                     + "','" + DDnacionalidad
+                     + "','" + Txttel2.Text
+                     + "','" + ddtrabaja
+                     + "','" + Txtfec_nac.Text
+                     + "','" + Txtpais.Text
+                     + "','" + Txtedo.Text
+                     + "','" + Txtciud.Text
+                     + "','" + txtfec_adm.Text
+                     + "')", sqlCon);
             sqlCommand.CommandType = CommandType.Text;
             sqlCommand.CommandTimeout = 4000;
             sqlCon.Open();
