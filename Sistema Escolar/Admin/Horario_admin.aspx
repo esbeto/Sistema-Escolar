@@ -5,8 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <td class="style1">
-        Ingrese la matricula y llene los campos indicados para crear el horario de un alumno
-    </td>
+        Ingrese la matricula y llene los campos indicados para crear el horario de un alumno<br />
     <asp:Label ID="Label2" runat="server" Text="Matricula:"></asp:Label>
     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     <asp:Label ID="Lblgpo" runat="server" Text="Grupo:"></asp:Label>

@@ -16,8 +16,13 @@
             </td>
         </tr>
     </table>
-    <asp:Label ID="Label2" runat="server" Text="Matricula:"></asp:Label>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:Label ID="LblMatricula" runat="server" Text="Matricula:"></asp:Label>
+    <asp:TextBox ID="Txtmatricula" runat="server"></asp:TextBox>
+    <asp:Label ID="Lblnombre" runat="server" Text="Nombre:"></asp:Label>
+    <asp:TextBox ID="Txtnombre" runat="server"></asp:TextBox>
+        <asp:Label ID="Lblmateria" runat="server" Text="Materia:"></asp:Label>
+    <asp:TextBox ID="Txtmateria" runat="server"></asp:TextBox>
+
     <br />
     <br />
     <br />
@@ -29,7 +34,6 @@
         <AlternatingRowStyle CssClass="alternatingRowGrid"></AlternatingRowStyle>
         <Columns>
             <asp:BoundField DataField="" HeaderText="GRUPO" />
-            <asp:BoundField DataField="" HeaderText="MATERIA" />
             <asp:BoundField DataField="" HeaderText="HORA" />
             <asp:BoundField DataField="" HeaderText="SALON" />
             <asp:BoundField DataField="" HeaderText="CALIFICACION" />
