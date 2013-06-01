@@ -98,12 +98,15 @@ namespace Sistema_Escolar.Admin
         protected void imgbtnguardar0_Click(object sender, ImageClickEventArgs e)
         {
             SqlConnection sqlCon = new SqlConnection(conexionest);
-            Int16 DDedocivil = Convert.ToInt16(ddedocivil);
-            Int16 DDdiscapacidad = Convert.ToInt16(dddiscapacidad);
-            Int16 DDtipsan = Convert.ToInt16(ddtipsan);
-            Int16 DDnacionalidad = Convert.ToInt16(ddnacionalidad);
+            Int16 DDedocivil = Convert.ToInt16(ddedocivil.SelectedValue);
+            Int16 DDdiscapacidad = Convert.ToInt16(dddiscapacidad.SelectedValue);
+            Int16 DDtipsan = Convert.ToInt16(ddtipsan.SelectedValue);
+            Int16 DDnacionalidad = Convert.ToInt16(ddnacionalidad.SelectedValue);
 
-
+            if (busqueda.Text != String.Empty) {
+                SqlCommand sqlbuscar = new SqlCommand(
+                    "SELECT * FROM Alumnos WHERE ID_alumno = " + busqueda, sqlCon);
+            }
             SqlCommand sqlCommand = new SqlCommand(
                 "INSERT INTO [SistemaEscolar].[dbo].[Alumnos]"
                      + "([Nombre],"
@@ -134,16 +137,16 @@ namespace Sistema_Escolar.Admin
                      + "','" + Txtcorr.Text
                      + "','" + Txtcurp.Text
                      + "','" + ddsexo.Text
-                     + "','" + DDedocivil
-                     + "','" + Txtrtel1.Text
-                     + "','" + Txtnomm.Text
+                     + "'," + DDedocivil
+                     + "," + Txtrtel1.Text.Replace(" ", string.Empty)
+                     + ",'" + Txtnomm.Text
                      + "','" + Txtnomp.Text
-                     + "','" + DDdiscapacidad
-                     + "','" + txtRFC.Text
-                     + "','" + DDtipsan
-                     + "','" + DDnacionalidad
-                     + "','" + Txttel2.Text
-                     + "','" + ddtrabaja
+                     + "'," + DDdiscapacidad
+                     + ",'" + txtRFC.Text
+                     + "'," + DDtipsan
+                     + "," + DDnacionalidad
+                     + "," + Txttel2.Text.Replace(" ", string.Empty)
+                     + ",'" + ddtrabaja.SelectedValue
                      + "','" + Txtfec_nac.Text
                      + "','" + Txtpais.Text
                      + "','" + Txtedo.Text

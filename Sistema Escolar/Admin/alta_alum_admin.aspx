@@ -11,6 +11,10 @@
         <br />
         <table>
             <tr>
+                <td>Actualizar Datos: (Matricula)</td>
+                <td><asp:TextBox ID="busqueda" runat="server"></asp:TextBox></td>
+            </tr>
+            <tr>
                 <th colspan="2">
                     <asp:Label ID="LblDatos" runat="server" Text="DATOS DEL ALUMNO"></asp:Label>
                 </th>
@@ -115,7 +119,7 @@
                 <td>
                     <asp:Label ID="LblDir" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                 </td>
-                <td>s
+                <td>
                     <asp:TextBox ID="Txtdir" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
                 </td>
             </tr>
@@ -191,7 +195,7 @@
                         <asp:Label ID="Lbldir1" runat="server" Text="Direccion:" CssClass="etiquetas"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="Txtdir1" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                        <asp:TextBox ID="Txtdir1" runat="server" CssClass="textBox"></asp:TextBox>
                     </td>
                 </tr>
             </tr>

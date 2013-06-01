@@ -13,6 +13,15 @@ namespace Sistema_Escolar.Admin {
     public partial class alta_alum_admin {
         
         /// <summary>
+        /// busqueda control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox busqueda;
+        
+        /// <summary>
         /// LblDatos control.
         /// </summary>
         /// <remarks>
