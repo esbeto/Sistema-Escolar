@@ -8,20 +8,30 @@
     <br />
     <br />
     <br />
-    <asp:Label ID="Lblidmateria" runat="server" Text="ID Materia:"></asp:Label>
-    <asp:TextBox ID="Txtidmateria" runat="server"></asp:TextBox>
     <asp:Label ID="Lblmateria" runat="server" Text="Materia:"></asp:Label>
     <asp:TextBox ID="Txtmateria" runat="server"></asp:TextBox>
-    <asp:Button ID="Btnactualizar" runat="server" Text="ACTUALIZAR" />
-    <asp:Button ID="BtnGuardar" runat="server" Text="GUARDAR" />
+    <asp:Label ID="Lblnivel" runat="server" Text="Nivel:"></asp:Label>
+    <asp:TextBox ID="Txtnivel" runat="server"></asp:TextBox>
     <br />
-    <asp:GridView ID="GridView8" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
+                    <asp:ImageButton ID="imgbtnsave" runat="server" ImageUrl="~/Imagenes/save.png"
+            CommandName="guardar" Height="34px" Width="35px"
+            onclick="imgbtnsave_Click"  />
+         <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="Borar" Height="34px" Width="35px"
+            onclick="imgbtndelete_Click"  />
+    <asp:GridView ID="Gvmateria" runat="server" HeaderStyle-CssClass="headerGrid" AlternatingRowStyle-CssClass="alternatingRowGrid"
         AutoGenerateColumns="false" CssClass="Grid" RowStyle-CssClass="normalRowGrid"
-        GridLines="Vertical" Style="margin-left: 20%;">
+        GridLines="Vertical" Style="margin-left: 20%;" 
+        >
         <Columns>
-            <asp:BoundField DataField="" HeaderText="ID Materia" />
-            <asp:BoundField DataField="" HeaderText=" Materia" />
+        <asp:TemplateField HeaderText="Materia" > 
+        <ItemTemplate>
+        <asp:Label ID = "lblmateria" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.nombre_materia") %>'></asp:Label>
+        <asp:Label ID = "Lblnivel" runat="server" Text='<%#DataBinder.Eval(Container,"DataItem.nivel") %>'></asp:Label>
+        </ItemTemplate>
+        </asp:TemplateField>
         </Columns>
     </asp:GridView>
+
     <br />
 </asp:Content>
