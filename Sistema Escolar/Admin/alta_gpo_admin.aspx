@@ -19,13 +19,30 @@
                 <td>
                     &nbsp;
                 </td>
+                               <td>
+                    <asp:Label ID="Lblid_clase" runat="server" Text="ID Clase:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtid_clase" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                </td>
+                </tr>
+                 <
+                <tr>
+                <td>
+                    &nbsp;
+                </td>
                 <td>
                     <asp:Label ID="lblidmate" runat="server" Text="ID Materia:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtodmate" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="txtidmate" runat="server" Style="margin-left: 0px" 
+                        CssClass="textBox" ontextchanged="txtidmate_TextChanged"></asp:TextBox>
+                </td>
+                 <td>
+                                    <asp:TextBox ID="Txtmat" runat="server"></asp:TextBox>
                 </td>
             </tr>
+
             <tr>
                 <td>
                     &nbsp;
@@ -36,16 +53,49 @@
                 <td>
                     <asp:TextBox ID="Txtidpgo" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
                 </td>
+                                <td>
+                                    <asp:TextBox ID="Txtgpo" runat="server"></asp:TextBox>
+                </td>
             </tr>
-            <tr>
+
+             <tr>
                 <td>
                     &nbsp;
                 </td>
                 <td>
-                    <asp:Label ID="lblmate" runat="server" Text="Materia:" CssClass="etiquetas"></asp:Label>
+                    <asp:Label ID="Lblesp" runat="server" Text="Especialidad:" CssClass="etiquetas"></asp:Label>
+                </td>
+                                <td>
+                    <asp:TextBox ID="txtidesp" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtmate" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                    <asp:TextBox ID="Txtesp" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <asp:Label ID="Lblnvl" runat="server" Text="Nivel:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtnvl" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <asp:Label ID="Lblmaes" runat="server" Text="Maestro:" CssClass="etiquetas"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtidma" runat="server" Style="margin-left: 0px" CssClass="textBox"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:TextBox ID="Txtmaes" runat="server" Style="margin-left: 0px" 
+                        CssClass="textBox" ontextchanged="Txtmaes_TextChanged"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -55,28 +105,12 @@
                 <td>
                     <asp:Label ID="lblslon" runat="server" Text="Salon:" CssClass="etiquetas"></asp:Label>
                 </td>
-                <td>
-                    <asp:DropDownList ID="DropDownList6" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>001</asp:ListItem>
-                        <asp:ListItem>002</asp:ListItem>
-                        <asp:ListItem>003</asp:ListItem>
-                        <asp:ListItem>004</asp:ListItem>
-                        <asp:ListItem>005</asp:ListItem>
-                        <asp:ListItem>006</asp:ListItem>
-                        <asp:ListItem>001</asp:ListItem>
-                        <asp:ListItem>010</asp:ListItem>
-                        <asp:ListItem>011</asp:ListItem>
-                        <asp:ListItem>012</asp:ListItem>
-                        <asp:ListItem>013</asp:ListItem>
-                        <asp:ListItem>014</asp:ListItem>
-                        <asp:ListItem>015</asp:ListItem>
-                        <asp:ListItem>016</asp:ListItem>
-                        <asp:ListItem>017</asp:ListItem>
-                        <asp:ListItem>018</asp:ListItem>
-                        <asp:ListItem>019</asp:ListItem>
-                        <asp:ListItem>020</asp:ListItem>
-                    </asp:DropDownList>
+                                <td>
+                    <asp:TextBox ID="Txtsal" runat="server"></asp:TextBox>
                 </td>
+            
+                <td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -86,15 +120,12 @@
                     <asp:Label ID="lbldias" runat="server" Text="Dias:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList5" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>Lunes</asp:ListItem>
-                        <asp:ListItem>Martes</asp:ListItem>
-                        <asp:ListItem>Miercoles</asp:ListItem>
-                        <asp:ListItem>Jueves</asp:ListItem>
-                        <asp:ListItem>Viernes</asp:ListItem>
-                        <asp:ListItem>Sabado</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="Txtdi" runat="server"></asp:TextBox>
                 </td>
+            
+            
+                <td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -103,28 +134,11 @@
                 <td>
                     <asp:Label ID="Lblhrs" runat="server" Text="Horas:" CssClass="etiquetas"></asp:Label>
                 </td>
-                <td>
-                    <asp:DropDownList ID="DropDownList3" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>M1</asp:ListItem>
-                        <asp:ListItem>M2</asp:ListItem>
-                        <asp:ListItem>M3</asp:ListItem>
-                        <asp:ListItem>M4</asp:ListItem>
-                        <asp:ListItem>M5</asp:ListItem>
-                        <asp:ListItem>M6</asp:ListItem>
-                        <asp:ListItem>N1</asp:ListItem>
-                        <asp:ListItem>N2</asp:ListItem>
-                        <asp:ListItem>N3</asp:ListItem>
-                        <asp:ListItem>N4</asp:ListItem>
-                        <asp:ListItem>N5</asp:ListItem>
-                        <asp:ListItem>N6</asp:ListItem>
-                        <asp:ListItem>V1</asp:ListItem>
-                        <asp:ListItem>V2</asp:ListItem>
-                        <asp:ListItem>V3</asp:ListItem>
-                        <asp:ListItem>V4</asp:ListItem>
-                        <asp:ListItem>V5</asp:ListItem>
-                        <asp:ListItem>V6</asp:ListItem>
-                    </asp:DropDownList>
+                                <td>
+                    <asp:TextBox ID="Txthor" runat="server"></asp:TextBox>
                 </td>
+                <td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td>
@@ -134,14 +148,7 @@
                     <asp:Label ID="Lblcap" runat="server" Text="Capacidad:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList4" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>20</asp:ListItem>
-                        <asp:ListItem>30</asp:ListItem>
-                        <asp:ListItem>35</asp:ListItem>
-                        <asp:ListItem>40</asp:ListItem>
-                        <asp:ListItem>45</asp:ListItem>
-                        <asp:ListItem>CONFERENCIA 10 PERSONAS</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="Txtcap" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -151,12 +158,11 @@
                 <td>
                     <asp:Label ID="Lblmod" runat="server" Text="Modalidad:" CssClass="etiquetas"></asp:Label>
                 </td>
+                 <td>
+                    <asp:TextBox ID="Txtidmod" runat="server"></asp:TextBox>
+                </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>Presencial</asp:ListItem>
-                        <asp:ListItem>Semi-Presencial</asp:ListItem>
-                        <asp:ListItem>No-Presencial</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="Txtmod" runat="server"></asp:TextBox>
                 </td>
                 <td>
                     &nbsp;
@@ -170,14 +176,10 @@
                     <asp:Label ID="Lblidioma" runat="server" Text="Idioma:" CssClass="etiquetas"></asp:Label>
                 </td>
                 <td>
-                    <asp:DropDownList ID="DropDownList2" runat="server" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
-                        <asp:ListItem>Espanol</asp:ListItem>
-                        <asp:ListItem>Ingles</asp:ListItem>
-                        <asp:ListItem>Aleman</asp:ListItem>
-                        <asp:ListItem>Chino</asp:ListItem>
-                        <asp:ListItem>Mandarin</asp:ListItem>
-                        <asp:ListItem>Japones</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="Txtidi" runat="server"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
                 </td>
             </tr>
         </table>
@@ -185,7 +187,13 @@
     <div style="margin-left: 70%;">
         <asp:ImageButton ID="imgbtnguardar0" runat="server" ImageUrl="~/Imagenes/save.png"
             CommandName="guardar" Height="34px" Width="35px" />
+             <asp:ImageButton ID="Imgbtndelete" runat="server" ImageUrl="~/Imagenes/delete.png"
+            CommandName="guardar" Height="34px" Width="35px" />
     </div>
+    <td>ID CLASE</td>
+    <asp:TextBox ID="txtid_claseb" runat="server"></asp:TextBox>
+       <asp:ImageButton ID="ImgbtnACEPTAR" runat="server" CommandName="ACEPTAR" 
+        Height="34px" ImageUrl="~/Imagenes/aceptar.png" Width="35px" />
     <br />
     <br />
 </asp:Content>
